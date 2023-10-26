@@ -1,26 +1,26 @@
 SickGamingBot has a lot of features, with 33 modules and 7 main categories:
-👩‍💼 Administration:
-🚓 Moderation: see-warns, setlogs, checkinvites, poll, and 6 more! 
-🎵 Music: play, skip, queue, np, and 2 more! 
-💰 Economy: profile,
-👻 Fun: lmg, flip, random and 6 more! 
-🖨️ General: setafk, translate, remindme, hastebin, fortnite, minecraft, RLstats, and 10 more! 
-👑 Owner: setapi links
+1. 👩‍💼 Administration:
+2. 🚓 Moderation: see-warns, setlogs, checkinvites, poll, and 6 more! 
+3. 🎵 Music: play, skip, queue, np, and 2 more! 
+4. 💰 Economy: profile,
+5. 👻 Fun: lmg, flip, random and 6 more! 
+6. 🖨️ General: setafk, translate, remindme, hastebin, fortnite, minecraft, RLstats, and 10 more! 
+7. 👑 Owner: setapi links
 
 SickGamingBot 
 
 Admin:
-    addrole - Add a role to a user.
-    announce - Announce a message to all servers the bot is in.
-    announceset - Change how announcements are sent in this guild.
-    editrole - Edit role settings.
-    removerole - Remove a role from a user.
-    selfrole - Add or remove a selfrole from yourself.
-    selfroleset - Manage selfroles.
-    serverlock - Lock a bot to its current servers only.
+* addrole - Add a role to a user.
+* announce - Announce a message to all servers the bot is in.
+* announceset - Change how announcements are sent in this guild.
+* editrole - Edit role settings.
+* removerole - Remove a role from a user.
+* selfrole - Add or remove a selfrole from yourself.
+* selfroleset - Manage selfroles.
+* serverlock - Lock a bot to its current servers only.
 
 Alias:
-    alias - Manage command aliases.
+* alias - Manage command aliases.
 
 Assistant:
     assistant - Setup the assistant
