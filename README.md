@@ -14,7 +14,9 @@ Link to server to test bot:
 
 ### Possible API to incorporatations
 ** Rocket League: ** 
+- https://rocketleague.tracker.network/ # Recommended website
 - https://tracker.gg/developers/apps
 - https://www.programmableweb.com/api/rocket-league-stats
 - https://rapidapi.com/blog/directory/rocket-league-stats/
 - https://github.com/rocketleagueapi/items
+- https://github.com/AeonLucid/RocketLeaguePublic # old link shutdown i think
