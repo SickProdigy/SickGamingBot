@@ -7,8 +7,12 @@ Link To Invite Bot:
 Link to server to test bot: 
 - https://discord.gg/eQj8wyY
 
+## Commands List
+- [Commands for @ everyone](Commands-Everyone-List.md)
+- [Commands Full List](Commands-Full-List.md)
+- [Commands Staff List](	Commands-Staff-List.md)
 
-### Possible API to incorporate
+### Possible API to incorporatations
 ** Rocket League: ** 
 - https://tracker.gg/developers/apps
 - https://www.programmableweb.com/api/rocket-league-stats
