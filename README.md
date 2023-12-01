@@ -13,6 +13,12 @@ Link to server to test bot:
 - [Commands Staff List (SickGaming Staff Commands)](Commands-Staff-List.md)
 
 
+---
+
+## To Do
+[ ] Coming Soon
+
+
 ### Possible API to incorporatations
 ** Rocket League: ** 
 - https://rocketleague.tracker.network/ # Recommended website
