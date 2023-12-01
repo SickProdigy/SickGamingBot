@@ -8,9 +8,10 @@ Link to server to test bot:
 - https://discord.gg/eQj8wyY
 
 ## Commands List
-- [Commands for @ everyone](Commands-Everyone-List.md)
-- [Commands Full List](Commands-Full-List.md)
-- [Commands Staff List](	Commands-Staff-List.md)
+- [Commands for @everyone (Regular User Commands)](Commands-Everyone-List.md)
+- [Commands Full List (Server Owner Commands)](Commands-Full-List.md)
+- [Commands Staff List (SickGaming Staff Commands)](Commands-Staff-List.md)
+
 
 ### Possible API to incorporatations
 ** Rocket League: ** 
