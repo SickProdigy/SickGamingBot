@@ -1,8 +1,8 @@
 # Reaction Roles Explained
 
-Examples and list for later use possibly
-* 
-`-roletools`
+Syntax: -roletools
+</br>
+*Commands for creating custom role settings*
 
 Subcommands:
 * atomic Set the atomicity of role assignment.
@@ -25,6 +25,8 @@ Subcommands:
 * selfrole Add or remove a defined selfrole
 * sticky Set whether or not a role will be re-applied when a user...
 * viewroles View current roletools setup for each role in the ser...
+
+<p> Note* use '-help roletools' to get helpful information in discord from bot! </p>
 
 Testing:
 * -roletools button create role1 @role label: Super fun role style: blurple emoji: 😀
