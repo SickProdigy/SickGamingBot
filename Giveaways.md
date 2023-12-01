@@ -1,18 +1,21 @@
 # SickGamingBot Giveaway Command
 
-* Syntax: -giveaway 
-* Alias: -gw
-Manage the giveaway system
+Syntax: -giveaway 
+</br>
+Alias: -gw
+</br>
+*Manage the giveaway system*
 
-* advanced Advanced creation of Giveaways.
-* end End a giveaway.
-* entrants List all entrants for a giveaway.
-* explain Explanation of giveaway advanced and the arguements it...
-* info Information about a giveaway.
-* integrations Various 3rd party integrations for giveaways.
-* list List all giveaways in the server.
-* reroll Reroll a giveaway.
-* start Start a giveaway.
+**Sub-commands:**
+* advanced - Advanced creation of Giveaways.
+* end - End a giveaway.
+* entrants - List all entrants for a giveaway.
+* explain - Explanation of giveaway advanced and the arguements it...
+* info - Information about a giveaway.
+* integrations - Various 3rd party integrations for giveaways.
+* list - List all giveaways in the server.
+* reroll - Reroll a giveaway.
+* start - Start a giveaway.
 
 Note* use '-help giveaway' to get helpful information
 
