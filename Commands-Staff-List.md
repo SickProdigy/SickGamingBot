@@ -1,5 +1,5 @@
-SickGamingBot Commands: Staff List
-* # Still in development
+# SickGamingBot Commands: Staff List
+### Still in development
 
 Admin:
 * addrole - Add a role to a user.
