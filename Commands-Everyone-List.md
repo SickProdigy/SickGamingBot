@@ -1,5 +1,7 @@
 # SickGamingBot Commands for @everyone to use
 
+### Still in Development
+
 Assistant:
 * assistant - Setup the assistant
 * chat - Chat with SickGamingBot!
