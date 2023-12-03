@@ -13,6 +13,12 @@ Link to server to test bot:
 - [Commands Staff List (SickGaming Staff Commands)](Commands-Staff-List.md)
 
 
+## Popular Commands Explained
+- [Giveaways](Giveaways.md)
+- [Reaction Roles](Reaction-Roles.md)
+- [Welcome Messages](Welcome-Message.md)
+
+
 ---
 
 ## To Do
