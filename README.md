@@ -22,7 +22,7 @@ Link to server to test bot:
 ---
 
 ## To Do
-[ ] Coming Soon
+- [ ] Fix -rlstats to rocket league tracker api.
 
 
 ### Possible API to incorporatations
