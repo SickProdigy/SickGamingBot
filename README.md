@@ -24,6 +24,12 @@ Link to server to test bot:
 ## To Do
 - [ ] Fix -rlstats to rocket league tracker api.
 
+### API's incorporated already
+- Cleverbot
+- Open AI 
+- imgur
+- streams (twitch, youtube, picarto)
+- wolfram
 
 ### Possible API to incorporatations
 ** Rocket League: ** 
