@@ -1,4 +1,5 @@
 # SickGamingBot has a lot of features, with 33 modules and 7 main categories:
+Full List of Commands, for server owners
 
 ### Still in development.
 
