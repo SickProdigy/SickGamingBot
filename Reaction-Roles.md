@@ -34,7 +34,6 @@ Testing:
 
 Different emoji = different reaction to react with
 * -roletools reaction create 1147713281994281040 :ghost: @Among Us
-Working:
 * -roletools reaction create 765426801165729794 :thumbsup: @Among Us
 * -roletools reaction create 765426822010765323 :thumbsup: @Apex Legends
 * -roletools reaction create 765426836909326336 :thumbsup: @Ark
