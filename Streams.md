@@ -4,6 +4,7 @@
 
 ### Automated Stream Alerts
 Syntax: -streamalert
+</br>
 Note* You can run '-streamalert help' to get detailed information in discord chat.
 </br>
 *Manage automated stream alerts.*
@@ -17,6 +18,7 @@ Note* You can run '-streamalert help' to get detailed information in discord cha
 
 ### Stream Alert Settings
 Syntax: -streamset
+</br>
 Note* You can run '-streamset help' to get detailed information in discord chat.
 </br>
 *Manage stream alert settings.*
