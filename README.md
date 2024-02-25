@@ -16,6 +16,7 @@ Link to server to test bot:
 ## Popular Commands Explained
 - [Giveaways](Giveaways.md)
 - [Reaction Roles](Reaction-Roles.md)
+- [Streams](Streams.md)
 - [Welcome Messages](Welcome-Message.md)
 
 
