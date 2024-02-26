@@ -3,6 +3,7 @@
 Syntax: -roletools
 </br>
 *Commands for creating custom role settings*
+</br>
 **Note: use '-help roletools' for helpful info in discord. can define sub commands also like '-help roletools reaction'
 
 Subcommands: # Each Sub command can have more sub commands. 
