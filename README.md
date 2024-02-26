@@ -9,8 +9,8 @@ Link to server to test bot:
 
 ## Commands List
 - [Commands for @everyone (Regular User Commands)](Commands-Everyone-List.md)
-- [Commands Full List (Server Owner Commands)](Commands-Full-List.md)
-- [Commands Staff List (SickGaming Staff Commands)](Commands-Staff-List.md)
+- [Commands Full List (Server Owner Commands included)](Commands-Full-List.md)
+- [Commands Staff List (Staff Commands Default; can be changed per server)](Commands-Staff-List.md)
 
 
 ## Popular Commands Explained
@@ -23,20 +23,15 @@ Link to server to test bot:
 ---
 
 ## To Do
-- [ ] Fix -rlstats to rocket league tracker api.
+- [ ] Issue #6 ; Fix -rlstats to rocket league tracker api. Emailed already, waiting for response may need more people to email.
+- [ ] Issue #5 ; Add Clash of Clans commands 
 
 ### API's incorporated already
-- Cleverbot
-- Open AI 
-- imgur
-- streams (twitch, youtube, picarto)
-- wolfram
+- Cleverbot (command = '-ask') not enabled because costs
+- Open AI (command = '-assistant') not enabled because costs
+- imgur (command = '-imgur')
+- streams (twitch, youtube, picarto) does stream alerts and check if they are live rn.
+- wolfram (command = '-wolfram' or '-a') kind of like old school ai. Assistant that can answer questions about the physical world.
 
-### Possible API to incorporatations
+### API's to incorporate soon
 ** Rocket League: ** 
-- https://rocketleague.tracker.network/ # Recommended website
-- https://tracker.gg/developers/apps
-- https://www.programmableweb.com/api/rocket-league-stats
-- https://rapidapi.com/blog/directory/rocket-league-stats/
-- https://github.com/rocketleagueapi/items
-- https://github.com/AeonLucid/RocketLeaguePublic # old link shutdown i think
