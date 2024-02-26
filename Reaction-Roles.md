@@ -3,8 +3,9 @@
 Syntax: -roletools
 </br>
 *Commands for creating custom role settings*
+**Note: use '-help roletools' for helpful info in discord. can define sub commands also like '-help roletools reaction'
 
-Subcommands:
+Subcommands: # Each Sub command can have more sub commands. 
 * atomic Set the atomicity of role assignment.
 * autorole Set a role to be automatically applied when a user joi...
 * buttons Setup role buttons
