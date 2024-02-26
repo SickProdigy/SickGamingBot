@@ -26,11 +26,21 @@ Subcommands:
 * sticky Set whether or not a role will be re-applied when a user...
 * viewroles View current roletools setup for each role in the ser...
 
-<p> Note* use '-help roletools' to get helpful information in discord from bot! </p>
+<p> Note* use '-help roletools' and further like '-help roletools reaction create' to get helpful 
+information in discord from bot on that specific command! </p>
 
 Testing:
 * -roletools button create role1 @role label: Super fun role style: blurple emoji: 😀
 * -roletools button create Among-Us @Among Us  label: Among Us style: blurple emoji: :ghost:
+
+<p> Syntax for adding roles: -roletools reaction create <message> <emoji> <role> </p>
+<p> Aliases: '-roletools reaction make' and '-roletools reaction setup'
+
+Create a reaction role:
+- <message> can be the channel_id-message_id pair
+- from copying message ID while holding SHIFT or a message link
+- <emoji> The emoji you want people to react with to get the role.
+- <role> The role you want people to receive for reacting.
 
 Different emoji = different reaction to react with
 * -roletools reaction create 1147713281994281040 :ghost: @Among Us
