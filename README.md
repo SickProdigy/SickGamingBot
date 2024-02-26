@@ -23,8 +23,8 @@ Link to server to test bot:
 ---
 
 ## To Do
-- [ ] Issue #6 ; Fix -rlstats to rocket league tracker api. Emailed already, waiting for response may need more people to email.
-- [ ] Issue #5 ; Add Clash of Clans commands 
+- [ ] https://gitea.rcs1.xyz/SickGaming/sickgamingbot-public/issues/6 ; Fix -rlstats to rocket league tracker api. Emailed already, waiting for response may need more people to email.
+- [ ] https://gitea.rcs1.xyz/SickGaming/sickgamingbot-public/issues/5 ; Add Clash of Clans commands 
 
 ### API's incorporated already
 - Cleverbot (command = '-ask') not enabled because costs
