@@ -1,7 +1,14 @@
-# Staff commands
+# Moderator and administrator commands
 
 Access depends on Discord permissions, role hierarchy, Red checks, and server policy.
 Review direct help before destructive or bulk actions.
+
+This guide uses “staff” as shorthand for people granted moderator, administrator, or
+delegated feature access in a Discord server. A SickGaming community staff title does
+not automatically grant commands in another server. See [Permissions](../permissions.md)
+for the distinction.
+
+For every subcommand and its declared access level, use the [complete reference](../reference/index.md).
 
 ## Moderation
 

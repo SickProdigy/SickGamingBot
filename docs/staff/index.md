@@ -1,6 +1,10 @@
-# Staff guide
+# Moderator and administrator guide
 
 Staff access is split between moderation and administration. A custom manager role may operate one feature without receiving broader Discord permissions.
+
+“Staff” means staff of the Discord server using the bot. SickGaming community staff
+do not automatically receive moderation powers in someone else's server. See
+[Permissions](../permissions.md).
 
 ## Moderators and delegated managers
 

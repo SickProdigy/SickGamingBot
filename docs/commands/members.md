@@ -11,8 +11,8 @@
 - `-ark`, `-dayz`, `-gmod`, and `-icarus`
 - `-coc` for Clash of Clans
 - `-rocketleague` (alias `-rl`) and `-rlcs`
-- `-rlstats` and `-rlsports` when the legacy stats integration is enabled
 - `-runescape` (alias `-rs`)
+- `-pokemon` (aliases `-pkmn` and `-poke`)
 
 ## Music, media, and discovery
 
@@ -25,14 +25,7 @@
 ## Profiles, economy, and utilities
 
 - `-bank`, `-leaderboard`, `-payday`, and `-slot`
-- `-pf`, `-myprofile`, `-lvltop`, `-weekly`, and `-stars`
 - `-choose`, `-flip`, `-roll`, `-rps`, `-serverinfo`, and `-trivia`
-
-## Assistant
-
-Common commands include `-chathelp`, `-chat`, `-convostats`,
-`-convocompact`, `-convoclear`, `-convoshow`, and `-query`. Availability and
-cost controls vary by server.
 
 Never send passwords, tokens, recovery codes, private keys, or other secrets to any
 bot command.

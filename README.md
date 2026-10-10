@@ -63,6 +63,7 @@ restarting the bot, and other host operations are maintainer-only. Read
 ## Help and reference
 
 - [Command and documentation status](docs/command-status.md)
+- [Complete command reference](docs/reference/index.md)
 - [Privacy and data](docs/privacy-and-data.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Legacy command snapshots](docs/legacy-command-lists.md)
