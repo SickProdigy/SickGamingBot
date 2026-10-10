@@ -6,6 +6,7 @@ Start with the guide that matches what you are trying to do:
 - [Staff commands](staff.md) cover moderation and delegated feature management.
 - [Server-owner commands](server-owners.md) cover guild-wide policy and configuration.
 - [Complete command reference](../reference/index.md) lists all commands and subcommands by loaded module.
+- [Using SickGamingBot help](../using-help.md) explains command and subcommand help paths.
 
 The audience guides are practical starting points, not permission grants or raw exports of every
 subcommand. SickGamingBot uses the `-` prefix; use `-help <command>` for current

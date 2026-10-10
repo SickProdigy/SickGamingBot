@@ -2,8 +2,20 @@
 
 Loaded package: `movies`
 
-Use `-help <command>` for complete syntax and argument details. Access below is
-derived from declared command checks; server-specific permission rules can change it.
+## Reading this reference
+
+Each command is shown as its complete path. To see detailed help, put that path after
+`-help` without repeating the leading hyphen:
+
+```text
+-help <command>
+-help <command> <subcommand>
+-help <command> <subcommand> <nested-subcommand>
+```
+
+The access column is derived from declared command checks. Server-specific permission
+rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
+an explanation of required and optional arguments.
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |

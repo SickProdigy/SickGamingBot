@@ -13,11 +13,15 @@ using the same authorization link returned by the `-invite` command.
 
 Start by asking the bot for help. SickGamingBot commands use the `-` prefix:
 
-    -help
-    -help <command>
+```text
+-help
+-help <command>
+-help <command> <subcommand>
+```
 
 The first command shows what is available to your account. The second explains a
-specific command and its subcommands. See [Getting started](docs/getting-started.md)
+command group, while the third focuses on a specific subcommand. See
+[Using SickGamingBot help](docs/using-help.md) or [Getting started](docs/getting-started.md)
 for the full introduction.
 
 ## What can SickGamingBot do?
@@ -30,7 +34,7 @@ Depending on what a server enables, SickGamingBot can provide:
 - Profiles, activity levels, economy features, trivia, and general utilities.
 - Game and community integrations for ARK, Clash of Clans, DayZ, Garry's Mod,
   Icarus, Rocket League, RuneScape, and more.
-- Optional assistant, Wolfram, Navidrome, RSS, and other connected services.
+- Wolfram, Navidrome, RSS, and other connected services.
 
 Browse the [feature guide](docs/features/index.md) or go directly to the
 [command guides](docs/commands/index.md). Live help is always the authority for what
@@ -41,7 +45,7 @@ is currently loaded, enabled, and available in a particular server.
 | I am a… | Start here | What you will find |
 | --- | --- | --- |
 | Member | [Member guide](docs/members/index.md) | Everyday commands, self-service features, and account connections |
-| Moderator or administrator | [Staff guide](docs/staff/index.md) | Moderation workflows and server configuration |
+| Moderator or administrator | [Moderator and administrator guide](docs/staff/index.md) | Moderation workflows and server configuration |
 | Discord server owner | [Server-owner guide](docs/server-owners/index.md) | Initial setup, integrations, and guild policy |
 
 ## How access levels work
@@ -63,6 +67,7 @@ restarting the bot, and other host operations are maintainer-only. Read
 ## Help and reference
 
 - [Command and documentation status](docs/command-status.md)
+- [Using SickGamingBot help](docs/using-help.md)
 - [Complete command reference](docs/reference/index.md)
 - [Privacy and data](docs/privacy-and-data.md)
 - [Troubleshooting](docs/troubleshooting.md)

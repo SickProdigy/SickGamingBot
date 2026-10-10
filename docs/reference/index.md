@@ -1,9 +1,28 @@
 # Complete command reference
 
-This reference covers Red core commands plus every command and subcommand found in
-the 38 packages loaded by the official SickGamingBot instance on 2026-10-10. The runtime baseline was Red 3.5.24,
-prefix `-`, with Sick-Cogs repository commit
-`42693ae13d35c0662abfd886ed6c2eb5332dc172`.
+## Reference baseline
+
+- **Reviewed:** 2026-10-10
+- **Bot:** Official SickGamingBot instance
+- **Runtime:** Red 3.5.24 with the `-` prefix
+- **Scope:** Red core plus 38 loaded packages
+- **Sick-Cogs commit:** `42693ae13d35c0662abfd886ed6c2eb5332dc172`
+
+## How to use this reference
+
+Open a module below, then copy a command path from its table. To ask the bot for more
+specific details, put the entire path after `-help`:
+
+```text
+-help pokemon
+-help pokemon party
+-help warningset mywarnings sendtodms
+```
+
+The more specific path explains that subcommand instead of only showing the parent
+command group. Do not type angle brackets shown in generic syntax examples. See
+[Using SickGamingBot help](../using-help.md) for required arguments, optional arguments,
+aliases, and additional examples.
 
 Choose a module below. For task-oriented help, start with the curated
 [member, staff, and server-owner guides](../commands/index.md).
