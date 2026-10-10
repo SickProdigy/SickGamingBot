@@ -2,6 +2,12 @@
 
 This guide is for the owner of a Discord server using SickGamingBot. It covers guild setup and policy, not maintenance of the hosted bot process.
 
+## Invite SickGamingBot
+
+Send `-invite` in a direct message to SickGamingBot, or use the published
+[SickGamingBot invite](https://discord.com/oauth2/authorize?client_id=691452746632658954&scope=bot&permissions=0).
+You must be allowed to manage the Discord server where you add the bot.
+
 ## Start here
 
 1. Follow the [initial setup checklist](initial-setup.md).

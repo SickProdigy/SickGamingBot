@@ -2,7 +2,7 @@
 
 ## Checklist
 
-- [ ] Add SickGamingBot using an approved invite and review every requested permission.
+- [ ] Add SickGamingBot by sending `-invite` in a direct message to the bot or using the [published invite](https://discord.com/oauth2/authorize?client_id=691452746632658954&scope=bot&permissions=0), then review every requested permission.
 - [ ] Create or select a bot channel for help and commands.
 - [ ] Verify that `-help` works and shows the expected commands.
 - [ ] Place the bot role only as high as required for roles it must manage.
