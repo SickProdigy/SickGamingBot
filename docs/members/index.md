@@ -17,3 +17,5 @@ Only connect accounts through the bot's documented private prompt or an approved
 Connecting an account does not bypass the external service's permissions. Members do not configure server-wide credentials, moderation policy, announcement destinations, or bot hosting.
 
 Browse [Features](../features/index.md), [Permissions](../permissions.md), and [Troubleshooting](../troubleshooting.md) for more detail.
+
+For a practical index of command families, see [Member commands](../commands/members.md).

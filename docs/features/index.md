@@ -12,3 +12,5 @@ Feature availability depends on what is loaded and enabled in a server.
 The bot may also provide utilities, profiles, games, reminders, economy, search, media, and account connections. Use [p]help for commands currently available to you.
 
 Audience labels describe intended use; live checks remain authoritative. See [Command status](../command-status.md).
+
+For command-oriented navigation, use the [command guides](../commands/index.md).

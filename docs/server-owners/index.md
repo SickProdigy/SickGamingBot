@@ -19,3 +19,5 @@ This guide is for the owner of a Discord server using SickGamingBot. It covers g
 - Remove integrations and bot access when no longer needed.
 
 The bot host controls installed code, global credentials, restarts, infrastructure, and global policy. Server ownership does not provide those controls.
+
+See [Server-owner commands](../commands/server-owners.md) for guild-wide command families used during setup and policy review.

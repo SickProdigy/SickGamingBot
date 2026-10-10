@@ -25,6 +25,7 @@ A Discord server owner is not the bot host. Loading cogs, changing global creden
 The bot's live Discord permissions, Red command checks, disabled-command state, and server-specific rules are authoritative. Documentation describes the intended default audience; it does not grant access.
 
 - [Command and documentation status](docs/command-status.md)
+- [Command guides](docs/commands/index.md)
 - [Privacy and data](docs/privacy-and-data.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Legacy command snapshots](docs/legacy-command-lists.md)

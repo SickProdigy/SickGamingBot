@@ -23,3 +23,5 @@ Use the least privilege that supports the task. Do not grant Discord Administrat
 - Escalate bot-host failures to a SickGaming maintainer.
 
 See [Permissions](../permissions.md), [Privacy and data](../privacy-and-data.md), and [Troubleshooting](../troubleshooting.md).
+
+Use the [Staff command guide](../commands/staff.md) as a starting index for moderation and configuration commands.
