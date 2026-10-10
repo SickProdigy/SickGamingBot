@@ -4,6 +4,11 @@ SickGamingBot is a community Discord bot that brings moderation, member tools,
 games, media, roles, alerts, and server integrations together in one place. Each
 Discord server can enable different features and decide who may use or manage them.
 
+## Add SickGamingBot to your server
+
+[Invite SickGamingBot](https://discord.com/oauth2/authorize?client_id=691452746632658954&scope=bot&permissions=0)
+using the same authorization link returned by the `-invite` command.
+
 ## New to the bot?
 
 Start by asking the bot for help. SickGamingBot commands use the `-` prefix:
