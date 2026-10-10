@@ -13,7 +13,7 @@ but they are not the current permission model.
 
 ## Baseline
 
-The feature baseline was reviewed against the testing bot's Red cog data on
+The feature baseline was reviewed against the official SickGamingBot Red cog data on
 2026-10-10. It includes Red core features and Sick-Cogs features such as Ark, Clash of
 Clans, DayZ, Game Roles, Giveaways, Garry's Mod, Icarus, Meme, Movie Releases,
 Navidrome, Rocket League, Role Tools, RuneScape, Welcome, and Wolfram.

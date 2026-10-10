@@ -14,6 +14,6 @@ The older lists remain as migration references, not a current permission map. A 
 
 - Audience navigation and member/staff/server-owner boundaries: established.
 - Existing feature pages: retained, pending command-by-command review.
-- Testing-bot cog baseline: reviewed 2026-10-10.
+- Official SickGamingBot cog baseline: reviewed 2026-10-10.
 - Sanitized audience command indexes: established; subcommand review remains ongoing.
 - Automated stale-documentation check against a live bot export: planned.
