@@ -1,37 +1,32 @@
 # SickGamingBot
-SickGaming.net Discord Bot
 
-Link To Invite Bot: 
-- https://discordapp.com/oauth2/authorize?client_id=691452746632658954&scope=bot&permissions=2146958847
+Public help and setup documentation for SickGamingBot.
 
-Link to server to test bot: 
-- https://discord.gg/eQj8wyY
+Choose the guide that matches what you do in a Discord server:
 
-## Commands List
-- [Commands for @everyone (Regular User Commands)](Commands-Everyone-List.md)
-- [Commands Full List (Server Owner Commands included)](Commands-Full-List.md)
-- [Commands Staff List (Staff Commands Default; can be changed per server)](Commands-Staff-List.md)
+| I am a… | Start here | What you will find |
+| --- | --- | --- |
+| Member | [Member guide](docs/members/index.md) | Everyday commands, self-service features, and account connections |
+| Moderator or administrator | [Staff guide](docs/staff/index.md) | Moderation workflows and delegated server configuration |
+| Discord server owner | [Server-owner guide](docs/server-owners/index.md) | Initial setup, integrations, and guild policy |
 
+New to the bot? Read [Getting started](docs/getting-started.md). For a feature-based view, browse [Features](docs/features/index.md).
 
-## Popular Commands Explained
-- [Giveaways](Giveaways.md)
-- [Reaction Roles](Reaction-Roles.md)
-- [Streams](Streams.md)
-- [Welcome Messages](Welcome-Message.md)
+## Access levels
 
+- **Member** — ordinary commands and self-service actions.
+- **Moderator** — day-to-day community moderation granted by the server.
+- **Administrator** — sensitive Discord server configuration.
+- **Server Owner** — the owner of a Discord guild using SickGamingBot.
+- **SickGaming Maintainer** — the people who host and maintain the bot itself.
 
----
+A Discord server owner is not the bot host. Loading cogs, changing global credentials, restarting the bot, and other host operations are maintainer-only. See [Permissions](docs/permissions.md).
 
-## To Do
-- [ ] https://gitea.rcs1.xyz/SickGaming/sickgamingbot-public/issues/6 ; Fix -rlstats to rocket league tracker api. Emailed already, waiting for response may need more people to email.
-- [ ] https://gitea.rcs1.xyz/SickGaming/sickgamingbot-public/issues/5 ; Add Clash of Clans commands 
+The bot's live Discord permissions, Red command checks, disabled-command state, and server-specific rules are authoritative. Documentation describes the intended default audience; it does not grant access.
 
-### API's incorporated already
-- Cleverbot (command = '-ask') not enabled because costs
-- Open AI (command = '-assistant') not enabled because costs
-- imgur (command = '-imgur')
-- streams (twitch, youtube, picarto) does stream alerts and check if they are live rn.
-- wolfram (command = '-wolfram' or '-a') kind of like old school ai. Assistant that can answer questions about the physical world.
+- [Command and documentation status](docs/command-status.md)
+- [Privacy and data](docs/privacy-and-data.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [Legacy command snapshots](docs/legacy-command-lists.md)
 
-### API's to incorporate soon
-** Rocket League: ** 
+This repository documents the public bot experience. Cog source and development information live in the [Sick-Cogs repository](/SickProdigy/Sick-Cogs).
