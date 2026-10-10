@@ -12,4 +12,4 @@ Access is determined at runtime, not by documentation alone. The effective resul
 
 Discord Administrator, Discord server ownership, and Red bot ownership are different things. A server owner does not automatically receive bot-host commands.
 
-Audience labels are not a security control. Use [p]help and direct command help to see the current result for your account.
+Audience labels are not a security control. Use -help and direct command help to see the current result for your account.

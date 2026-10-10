@@ -9,7 +9,7 @@ Feature availability depends on what is loaded and enabled in a server.
 - [Welcome messages](../../Welcome-Message.md) — administrator setup for greetings and goodbyes.
 - [Stream alerts](../../Streams.md) — streamer status and configurable channel alerts.
 
-The bot may also provide utilities, profiles, games, reminders, economy, search, media, and account connections. Use [p]help for commands currently available to you.
+The bot may also provide utilities, profiles, games, reminders, economy, search, media, and account connections. Use -help for commands currently available to you.
 
 Audience labels describe intended use; live checks remain authoritative. See [Command status](../command-status.md).
 

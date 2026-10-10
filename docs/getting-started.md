@@ -2,10 +2,10 @@
 
 ## In a server that already has SickGamingBot
 
-Use your server's configured prefix followed by help. Replace [p] with the server's prefix:
+SickGamingBot commands use the `-` prefix. Start with:
 
-    [p]help
-    [p]help <command>
+    -help
+    -help <command>
 
 Discord may hide commands you cannot use, and individual features may be disabled.
 
@@ -18,7 +18,7 @@ Only use an invite published by SickGaming or an approved Discord application li
 After adding the bot:
 
 1. Confirm it can view and send messages in the intended bot channel.
-2. Run [p]help to verify the prefix and available commands.
+2. Run `-help` to verify the bot and view available commands.
 3. Decide which roles should manage moderation and optional features.
 4. Configure integrations individually; never paste credentials into public channels.
 

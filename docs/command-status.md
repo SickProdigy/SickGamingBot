@@ -4,7 +4,7 @@ This documentation is migrating from hand-maintained command dumps to audience- 
 
 ## Source of truth
 
-The live bot is authoritative for loaded cogs, enabled commands, aliases, current help text, permission checks, and server configuration. Use [p]help and [p]help <command> for the current result visible to your account.
+The live bot is authoritative for loaded cogs, enabled commands, aliases, current help text, permission checks, and server configuration. Use -help and -help <command> for the current result visible to your account.
 
 Public pages describe workflows and intended audiences. They must not expose global credentials, private endpoints, hidden maintainer utilities, or internal callback details.
 

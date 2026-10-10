@@ -18,4 +18,4 @@ Use separate, scoped, revocable credentials. Never reuse an administrator passwo
 - [Welcome messages](../../Welcome-Message.md)
 - [Reaction and self-service roles](../../Reaction-Roles.md)
 
-These older pages are being reviewed. Confirm current syntax with [p]help <command>.
+These older pages are being reviewed. Confirm current syntax with -help <command>.

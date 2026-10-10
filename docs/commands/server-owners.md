@@ -3,18 +3,18 @@
 A Discord server owner normally uses the same guild configuration as an administrator.
 Ownership does not grant access to the bot host or Red bot-owner commands.
 
-Start with `[p]help`, then review direct help for `[p]command`, `[p]modset`,
-`[p]modlogset`, `[p]warningset`, and `[p]muteset`.
+Start with `-help`, then review direct help for `-command`, `-modset`,
+`-modlogset`, `-warningset`, and `-muteset`.
 
 ## Guild-wide command families
 
-- `[p]command` for guild command and cog availability
-- `[p]localallowlist` and `[p]localblocklist` for guild access policy
-- `[p]ignore` and `[p]unignore` for ignored locations
-- `[p]embedset`, `[p]helpset`, and `[p]inviteset` for guild-facing core behavior
-- `[p]modset`, `[p]modlogset`, `[p]warningset`, and `[p]muteset` for moderation policy
-- `[p]selfroleset`, `[p]roletools`, and `[p]gameroleset` for member role systems
-- `[p]welcomeset`, `[p]streamset`, `[p]rss`, `[p]movieset`, and game integration
+- `-command` for guild command and cog availability
+- `-localallowlist` and `-localblocklist` for guild access policy
+- `-ignore` and `-unignore` for ignored locations
+- `-embedset`, `-helpset`, and `-inviteset` for guild-facing core behavior
+- `-modset`, `-modlogset`, `-warningset`, and `-muteset` for moderation policy
+- `-selfroleset`, `-roletools`, and `-gameroleset` for member role systems
+- `-welcomeset`, `-streamset`, `-rss`, `-movieset`, and game integration
   `*set` commands for optional features
 
 Use narrow manager roles for day-to-day operation. Keep sensitive setup in a private

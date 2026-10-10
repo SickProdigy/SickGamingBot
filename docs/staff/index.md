@@ -16,7 +16,7 @@ Use the least privilege that supports the task. Do not grant Discord Administrat
 
 ## Safe operation
 
-- Use [p]help <command> before a destructive or unfamiliar action.
+- Use -help <command> before a destructive or unfamiliar action.
 - Enter credentials only through a documented private flow.
 - Test configuration in a private staff channel when possible.
 - Treat role hierarchy and channel overwrites as part of effective access.

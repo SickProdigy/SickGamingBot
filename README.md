@@ -6,10 +6,10 @@ Discord server can enable different features and decide who may use or manage th
 
 ## New to the bot?
 
-Start by asking the bot for help. Replace `[p]` with the prefix used in your server:
+Start by asking the bot for help. SickGamingBot commands use the `-` prefix:
 
-    [p]help
-    [p]help <command>
+    -help
+    -help <command>
 
 The first command shows what is available to your account. The second explains a
 specific command and its subcommands. See [Getting started](docs/getting-started.md)

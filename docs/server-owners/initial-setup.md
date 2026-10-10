@@ -4,7 +4,7 @@
 
 - [ ] Add SickGamingBot using an approved invite and review every requested permission.
 - [ ] Create or select a bot channel for help and commands.
-- [ ] Verify [p]help and the server's actual prefix.
+- [ ] Verify that `-help` works and shows the expected commands.
 - [ ] Place the bot role only as high as required for roles it must manage.
 - [ ] Confirm channel permissions for messages, embeds, reactions, threads, and intended moderation features.
 - [ ] Assign moderator, administrator, and feature-manager access deliberately.

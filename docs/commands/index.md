@@ -5,8 +5,8 @@
 - [Server-owner commands](server-owners.md) cover guild-wide policy and configuration.
 
 These are practical starting points, not permission grants or raw exports of every
-subcommand. Replace `[p]` with the server's prefix and use `[p]help <command>` for
-current syntax, aliases, and access checks.
+subcommand. SickGamingBot uses the `-` prefix; use `-help <command>` for current
+syntax, aliases, and access checks.
 
 The old generated lists remain available as [legacy snapshots](../legacy-command-lists.md),
 but they are not the current permission model.

@@ -4,7 +4,7 @@ Member features are ordinary commands and self-service actions that do not chang
 
 ## Common activities
 
-- Ask for help with [p]help or [p]help <command>.
+- Ask for help with -help or -help <command>.
 - Use utilities, search, profiles, games, reminders, economy, and media features enabled by the server.
 - Join approved self-service roles through the server's role menus.
 - View public server information and feature status.

@@ -2,7 +2,7 @@
 
 ## A command is missing
 
-The feature may be unloaded, disabled, restricted in this channel, or unavailable to your account. Check the prefix, try [p]help <command>, and ask staff whether it is enabled.
+The feature may be unloaded, disabled, restricted in this channel, or unavailable to your account. Check the prefix, try -help <command>, and ask staff whether it is enabled.
 
 ## The bot does not respond
 
