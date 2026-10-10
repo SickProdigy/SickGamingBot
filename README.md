@@ -1,33 +1,66 @@
 # SickGamingBot
 
-Public help and setup documentation for SickGamingBot.
+SickGamingBot is a community Discord bot that brings moderation, member tools,
+games, media, roles, alerts, and server integrations together in one place. Each
+Discord server can enable different features and decide who may use or manage them.
 
-Choose the guide that matches what you do in a Discord server:
+## New to the bot?
+
+Start by asking the bot for help. Replace `[p]` with the prefix used in your server:
+
+    [p]help
+    [p]help <command>
+
+The first command shows what is available to your account. The second explains a
+specific command and its subcommands. See [Getting started](docs/getting-started.md)
+for the full introduction.
+
+## What can SickGamingBot do?
+
+Depending on what a server enables, SickGamingBot can provide:
+
+- Moderation tools for warnings, mutes, bans, message cleanup, reports, and case history.
+- Self-service roles, game-role profiles, welcome messages, and giveaways.
+- Music playback, memes, movie discovery, stream status, and stream alerts.
+- Profiles, activity levels, economy features, trivia, and general utilities.
+- Game and community integrations for ARK, Clash of Clans, DayZ, Garry's Mod,
+  Icarus, Rocket League, RuneScape, and more.
+- Optional assistant, Wolfram, Navidrome, RSS, and other connected services.
+
+Browse the [feature guide](docs/features/index.md) or go directly to the
+[command guides](docs/commands/index.md). Live help is always the authority for what
+is currently loaded, enabled, and available in a particular server.
+
+## Choose your guide
 
 | I am a… | Start here | What you will find |
 | --- | --- | --- |
 | Member | [Member guide](docs/members/index.md) | Everyday commands, self-service features, and account connections |
-| Moderator or administrator | [Staff guide](docs/staff/index.md) | Moderation workflows and delegated server configuration |
+| Moderator or administrator | [Staff guide](docs/staff/index.md) | Moderation workflows and server configuration |
 | Discord server owner | [Server-owner guide](docs/server-owners/index.md) | Initial setup, integrations, and guild policy |
 
-New to the bot? Read [Getting started](docs/getting-started.md). For a feature-based view, browse [Features](docs/features/index.md).
+## How access levels work
 
-## Access levels
+- **Member** — uses everyday commands and manages their own account connections.
+- **Moderator** — handles day-to-day community moderation when granted access by the server.
+- **Administrator** — configures sensitive, server-wide settings and optional features.
+- **Server Owner** — makes guild-level decisions about setup, access, integrations, and policy.
+- **SickGaming Maintainer** — hosts the bot and manages its code, process, and global services.
 
-- **Member** — ordinary commands and self-service actions.
-- **Moderator** — day-to-day community moderation granted by the server.
-- **Administrator** — sensitive Discord server configuration.
-- **Server Owner** — the owner of a Discord guild using SickGamingBot.
-- **SickGaming Maintainer** — the people who host and maintain the bot itself.
+These levels describe responsibility; they do not override Discord permissions or the
+bot's checks. A server may also delegate one feature to a manager role without making
+that person a full administrator.
 
-A Discord server owner is not the bot host. Loading cogs, changing global credentials, restarting the bot, and other host operations are maintainer-only. See [Permissions](docs/permissions.md).
+A Discord server owner is not the bot host. Loading cogs, changing global credentials,
+restarting the bot, and other host operations are maintainer-only. Read
+[Permissions](docs/permissions.md) for the complete distinction.
 
-The bot's live Discord permissions, Red command checks, disabled-command state, and server-specific rules are authoritative. Documentation describes the intended default audience; it does not grant access.
+## Help and reference
 
 - [Command and documentation status](docs/command-status.md)
-- [Command guides](docs/commands/index.md)
 - [Privacy and data](docs/privacy-and-data.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Legacy command snapshots](docs/legacy-command-lists.md)
 
-This repository documents the public bot experience. Cog source and development information live in the [Sick-Cogs repository](/SickProdigy/Sick-Cogs).
+This repository documents the public bot experience. Cog source and development
+information live in the [Sick-Cogs repository](/SickProdigy/Sick-Cogs).
