@@ -7,7 +7,7 @@
 - **Category:** Music, media, and feeds
 - **Intended audience:** Members, DJs, moderators, administrators, and maintainers depending on the action.
 - **Loaded package:** `audio`
-- **Documented commands:** 137 commands and subcommands
+- **Documented commands:** 136 commands and subcommands
 
 ## Main command families
 

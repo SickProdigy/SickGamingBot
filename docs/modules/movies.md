@@ -7,7 +7,7 @@
 - **Category:** Music, media, and feeds
 - **Intended audience:** Members browse movies; administrators configure announcements.
 - **Loaded package:** `movies`
-- **Documented commands:** 14 commands and subcommands
+- **Documented commands:** 15 commands and subcommands
 
 ## Main command families
 

@@ -1,6 +1,6 @@
 # Pokémon commands
 
-Loaded package: `pokemon`
+Loaded package: `Pokemon`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -48,7 +48,7 @@ an explanation of required and optional arguments.
 | `-pokemon use potion` | — | Member | Use a Potion to restore a Pokémon’s HP. |
 | `-pokemon use revive` | — | Member | Use a Revive on a fainted Pokémon. |
 | `-pokemon use stone` | — | Member | Use a Kanto evolution stone on an eligible Pokémon. |
-| `-pokemonownerset` | `pokeownerset`, `pkmnownerset` | Bot maintainer | Configure bot-wide Pokémon policy and owner overrides. |
+| `-pokemonownerset` | `pkmnownerset`, `pokeownerset` | Bot maintainer | Configure bot-wide Pokémon policy and owner overrides. |
 | `-pokemonownerset catalogsync` | — | Bot maintainer | Cache catalog data for a generation. |
 | `-pokemonownerset centercooldown` | — | Bot maintainer | Set the bot-wide free Pokémon Center cooldown. |
 | `-pokemonownerset concurrency` | `slots` | Bot maintainer | Override this server’s simultaneous encounter limit. |
@@ -60,6 +60,7 @@ an explanation of required and optional arguments.
 | `-pokemonownerset globalstatus` | `settings`, `status` | Bot maintainer | Show all bot-wide Pokémon policies and owner limits. |
 | `-pokemonownerset martprice` | — | Bot maintainer | Set a bot-wide Poké Mart item price. |
 | `-pokemonownerset pokedexstyle` | — | Bot maintainer | Choose the default Pokédex style for users following the default. |
+| `-pokemonownerset profile` | — | Bot maintainer | Apply a server profile with per-server owner overrides. |
 | `-pokemonownerset rarity` | — | Bot maintainer | Choose the global rarity profile. |
 | `-pokemonownerset resetplayer` | — | Bot maintainer | Reset one complete Pokémon profile. |
 | `-pokemonownerset specials` | — | Bot maintainer | Allow or gate special species. |
@@ -68,7 +69,7 @@ an explanation of required and optional arguments.
 | `-pokemonownerset vipclear` | — | Bot maintainer | Disable the trusted VIP role without removing prior rewards or Pokémon. |
 | `-pokemonownerset vippack` | — | Bot maintainer | Set the monthly VIP supply pack. |
 | `-pokemonownerset viprole` | — | Bot maintainer | Set or show the trusted guild and role for global VIP benefits. |
-| `-pokemonset` | `pokeset`, `pkmnset` | Administrator or required Discord permission | Configure Pokémon without cluttering player commands. |
+| `-pokemonset` | `pkmnset`, `pokeset` | Administrator or required Discord permission | Configure Pokémon without cluttering player commands. |
 | `-pokemonset battleexpiry` | — | Administrator or required Discord permission | Set the server battle time limit. |
 | `-pokemonset center` | — | Administrator or required Discord permission | Designate the server Pokémon Center. |
 | `-pokemonset channel` | — | Administrator or required Discord permission | Enable wild encounters in a channel. |
@@ -83,6 +84,7 @@ an explanation of required and optional arguments.
 | `-pokemonset notificationrole` | `alertrole` | Administrator or required Discord permission | Set or clear the opt-in encounter alert role. |
 | `-pokemonset notifications` | `notify` | Administrator or required Discord permission | Choose silent, normal, or opt-in-role encounter alerts. |
 | `-pokemonset pace` | — | Administrator or required Discord permission | Choose a preset encounter pace. |
+| `-pokemonset profile` | — | Administrator or required Discord permission | Apply an Active, Balanced, or Relaxed server profile. |
 | `-pokemonset quiethours` | — | Administrator or required Discord permission | Set local quiet hours or disable them with `off`. |
 | `-pokemonset removecenter` | — | Administrator or required Discord permission | Remove the server Pokémon Center. |
 | `-pokemonset removechannel` | — | Administrator or required Discord permission | Stop wild encounters in a channel. |
@@ -91,5 +93,5 @@ an explanation of required and optional arguments.
 | `-pokemonset threshold` | — | Administrator or required Discord permission | Set a slower custom activity threshold. |
 | `-pokemonset timer` | — | Administrator or required Discord permission | Set this server’s jittered timer within the bot-owner floor. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

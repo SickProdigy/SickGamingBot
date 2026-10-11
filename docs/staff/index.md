@@ -30,9 +30,9 @@ See [Permissions](../permissions.md), [Privacy and data](../privacy-and-data.md)
 
 ## Complete staff catalog
 
-The [staff command catalog](../commands/staff.md) lists all 412 command paths whose
+The [staff command catalog](../commands/staff.md) lists all 505 command paths whose
 declared checks require moderation, administration, or a specific Discord permission.
-Staff also retain the [300 member command paths](../commands/members.md).
+Staff also retain the [318 member command paths](../commands/members.md).
 
 Commands reserved specifically for a Discord server owner are listed separately in
 the [server-owner catalog](../commands/server-owners.md). Host-wide operations are

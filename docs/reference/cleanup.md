@@ -1,6 +1,6 @@
 # Cleanup commands
 
-Loaded package: `cleanup`
+Loaded package: `Cleanup`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -32,5 +32,5 @@ an explanation of required and optional arguments.
 | `-cleanupset` | — | Administrator or required Discord permission | Manage the settings for the cleanup command. |
 | `-cleanupset notify` | — | Administrator or required Discord permission | Toggle clean up notification settings. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

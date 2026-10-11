@@ -1,6 +1,6 @@
 # Administration commands
 
-Loaded package: `admin`
+Loaded package: `Admin`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -39,5 +39,5 @@ an explanation of required and optional arguments.
 | `-selfroleset remove` | — | Administrator or required Discord permission | Remove a role, or a selection of roles, from the list of available selfroles. |
 | `-serverlock` | — | Bot maintainer | Lock a bot to its current servers only. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

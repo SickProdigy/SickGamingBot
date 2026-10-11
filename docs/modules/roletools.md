@@ -7,7 +7,7 @@
 - **Category:** Community and server management
 - **Intended audience:** Members choose allowed roles; administrators configure role tools.
 - **Loaded package:** `roletools`
-- **Documented commands:** 2 commands and subcommands
+- **Documented commands:** 113 commands and subcommands
 
 ## Main command families
 

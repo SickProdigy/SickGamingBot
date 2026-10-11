@@ -1,6 +1,6 @@
 # Movie Releases commands
 
-Loaded package: `movies`
+Loaded package: `MovieReleases`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -28,11 +28,12 @@ an explanation of required and optional arguments.
 | `-movieset force` | — | Moderator or required Discord permission | Check now and post the next unposted release even if scheduled posting is disabled. |
 | `-movieset maxperday` | — | Moderator or required Discord permission | Set the maximum automatic release posts per day. |
 | `-movieset minvotes` | — | Moderator or required Discord permission | Set the minimum TMDb vote count required before posting a movie. |
+| `-movieset notifications` | `notify` | Moderator or required Discord permission | Choose silent or normal delivery for automatic movie posts. |
 | `-movieset preview` | — | Moderator or required Discord permission | Preview matching TMDb releases without posting them. |
 | `-movieset role` | — | Moderator or required Discord permission | Set the role mentioned by automatic movie release announcements. |
 | `-movieset roleclear` | `clearrole` | Moderator or required Discord permission | Stop mentioning a notification role in automatic release posts. |
 | `-movieset settings` | — | Moderator or required Discord permission | Show current movie release settings. |
 | `-movieset window` | — | Moderator or required Discord permission | Set the release date window checked by the cog. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

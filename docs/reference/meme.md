@@ -1,6 +1,6 @@
 # Meme commands
 
-Loaded package: `meme`
+Loaded package: `Meme` + `Memeify`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -31,14 +31,15 @@ an explanation of required and optional arguments.
 | `-memeify list` | `templates` | Member | List bundled meme templates. |
 | `-memeset` | — | Administrator or required Discord permission | Configure automatic meme feeds. |
 | `-memeset autopost` | — | Administrator or required Discord permission | Set or toggle a Meme API subreddit feed. |
-| `-memeset autopost off` | `remove`, `disable` | Administrator or required Discord permission | Remove a Meme API feed by destination and subreddit source. |
+| `-memeset autopost off` | `disable`, `remove` | Administrator or required Discord permission | Remove a Meme API feed by destination and subreddit source. |
 | `-memeset autopost status` | `list` | Administrator or required Discord permission | Show Meme API feed IDs, sources, destinations, intervals, and state. |
 | `-memeset feed` | — | Administrator or required Discord permission | Manage automatic meme feeds. |
 | `-memeset feed add` | — | Administrator or required Discord permission | Add an advanced scheduled feed. |
 | `-memeset feed list` | — | Administrator or required Discord permission | List configured feeds. |
 | `-memeset feed remove` | `delete` | Administrator or required Discord permission | Remove a feed by ID. |
 | `-memeset gifpost` | — | Administrator or required Discord permission | Automatically post animated Imgur results to a channel. |
+| `-memeset notifications` | `notify` | Administrator or required Discord permission | Choose silent or normal delivery for automatic meme feeds. |
 | `-memeversion` | — | Member | Show the installed Meme cog version. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

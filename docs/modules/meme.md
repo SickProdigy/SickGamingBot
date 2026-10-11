@@ -7,7 +7,7 @@
 - **Category:** Music, media, and feeds
 - **Intended audience:** Members use meme tools; administrators configure providers and limits.
 - **Loaded package:** `meme`
-- **Documented commands:** 20 commands and subcommands
+- **Documented commands:** 21 commands and subcommands
 
 ## Main command families
 

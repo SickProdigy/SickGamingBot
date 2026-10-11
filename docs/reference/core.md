@@ -1,6 +1,6 @@
 # Core commands
 
-Always-loaded Red core commands
+Loaded package: `Core`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -34,13 +34,13 @@ an explanation of required and optional arguments.
 | `-bankset creditsname` | — | Server owner or required Discord permission | Set the name for the bank's currency. |
 | `-bankset maxbal` | — | Server owner or required Discord permission | Set the maximum balance a user can get. |
 | `-bankset prune` | — | Server owner or required Discord permission | Base command for pruning bank accounts. |
-| `-bankset prune global` | — | Server owner or required Discord permission | Prune bank accounts for users who no longer share a server with the bot. |
+| `-bankset prune global` | — | Bot maintainer | Prune bank accounts for users who no longer share a server with the bot. |
 | `-bankset prune server` | `guild`, `local` | Server owner or required Discord permission | Prune bank accounts for users no longer in the server. |
 | `-bankset prune user` | — | Server owner or required Discord permission | Delete the bank account of a specified user. |
 | `-bankset registeramount` | — | Server owner or required Discord permission | Set the initial balance for new bank accounts. |
 | `-bankset reset` | — | Server owner or required Discord permission | Delete all bank accounts. |
 | `-bankset showsettings` | — | Server owner or required Discord permission | Show the current bank settings. |
-| `-bankset toggleglobal` | — | Server owner or required Discord permission | Toggle whether the bank is global or not. |
+| `-bankset toggleglobal` | — | Bot maintainer | Toggle whether the bank is global or not. |
 | `-blocklist` | `blacklist`, `denylist` | Bot maintainer | Commands to manage the blocklist. |
 | `-blocklist add` | — | Bot maintainer | Adds users to the blocklist. |
 | `-blocklist clear` | — | Bot maintainer | Clears the blocklist. |
@@ -76,7 +76,7 @@ an explanation of required and optional arguments.
 | `-embedset server` | `guild` | Server owner or required Discord permission | Set the server's embed setting. |
 | `-embedset showsettings` | — | Member | Show the current embed settings. |
 | `-embedset user` | — | Member | Sets personal embed setting for DMs. |
-| `-help` | — | Member | Shows commands available to you or detailed help for one command. |
+| `-help` | — | Member | I need somebody |
 | `-helpset` | — | Bot maintainer | Commands to manage settings for the help command. |
 | `-helpset deletedelay` | — | Bot maintainer | Set the delay after which help pages will be deleted. |
 | `-helpset maxpages` | — | Bot maintainer | Set the maximum number of help pages sent in a server channel. |
@@ -155,30 +155,30 @@ an explanation of required and optional arguments.
 | `-set fuzzy` | — | Bot maintainer | Toggle whether to enable fuzzy command search in DMs. |
 | `-set locale` | — | Server owner or required Discord permission | Changes SickGamingBot's locale in this server. |
 | `-set locale global` | — | Bot maintainer | Changes SickGamingBot's default locale. |
-| `-set locale server` | `local`, `guild` | Server owner or required Discord permission | Changes SickGamingBot's locale in this server. |
+| `-set locale server` | `guild`, `local` | Server owner or required Discord permission | Changes SickGamingBot's locale in this server. |
 | `-set ownernotifications` | — | Bot maintainer | Commands for configuring owner notifications. |
 | `-set ownernotifications adddestination` | — | Bot maintainer | Adds a destination text channel to receive owner notifications. |
 | `-set ownernotifications listdestinations` | — | Bot maintainer | Lists the configured extra destinations for owner notifications. |
 | `-set ownernotifications optin` | — | Bot maintainer | Opt-in on receiving owner notifications. |
 | `-set ownernotifications optout` | — | Bot maintainer | Opt-out of receiving owner notifications. |
-| `-set ownernotifications removedestination` | `remdestination`, `deletedestination`, `deldestination` | Bot maintainer | Removes a destination text channel from receiving owner notifications. |
-| `-set prefix` | `prefixes`, `globalprefix`, `globalprefixes` | Bot maintainer | Sets SickGamingBot's global prefix(es). |
+| `-set ownernotifications removedestination` | `deldestination`, `deletedestination`, `remdestination` | Bot maintainer | Removes a destination text channel from receiving owner notifications. |
+| `-set prefix` | `globalprefix`, `globalprefixes`, `prefixes` | Bot maintainer | Sets SickGamingBot's global prefix(es). |
 | `-set regionalformat` | `region` | Server owner or required Discord permission | Changes the bot's regional format in this server. This is used for formatting date, time and numbers. |
 | `-set regionalformat global` | — | Bot maintainer | Changes the bot's regional format. This is used for formatting date, time and numbers. |
-| `-set regionalformat server` | `local`, `guild` | Server owner or required Discord permission | Changes the bot's regional format in this server. This is used for formatting date, time and numbers. |
+| `-set regionalformat server` | `guild`, `local` | Server owner or required Discord permission | Changes the bot's regional format in this server. This is used for formatting date, time and numbers. |
 | `-set roles` | — | Server owner | Set server's admin and mod roles for SickGamingBot. |
 | `-set roles addadminrole` | — | Server owner | Adds an admin role for this server. |
 | `-set roles addmodrole` | — | Server owner | Adds a moderator role for this server. |
-| `-set roles removeadminrole` | `remadmindrole`, `deladminrole`, `deleteadminrole` | Server owner | Removes an admin role for this server. |
-| `-set roles removemodrole` | `remmodrole`, `delmodrole`, `deletemodrole` | Server owner | Removes a mod role for this server. |
+| `-set roles removeadminrole` | `deladminrole`, `deleteadminrole`, `remadmindrole` | Server owner | Removes an admin role for this server. |
+| `-set roles removemodrole` | `deletemodrole`, `delmodrole`, `remmodrole` | Server owner | Removes a mod role for this server. |
 | `-set serverfuzzy` | — | Server owner | Toggle whether to enable fuzzy command search for the server. |
 | `-set serverprefix` | `serverprefixes` | Administrator or required Discord permission | Sets SickGamingBot's server prefix(es). |
 | `-set showsettings` | — | Member | Show the current settings for SickGamingBot. |
 | `-set status` | — | Bot maintainer | Commands for setting SickGamingBot's status. |
 | `-set status competing` | — | Bot maintainer | Sets SickGamingBot's competing status. |
 | `-set status custom` | — | Bot maintainer | Sets SickGamingBot's custom status. |
-| `-set status dnd` | `donotdisturb`, `busy` | Bot maintainer | Set SickGamingBot's status to do not disturb. |
-| `-set status idle` | `away`, `afk` | Bot maintainer | Set SickGamingBot's status to idle. |
+| `-set status dnd` | `busy`, `donotdisturb` | Bot maintainer | Set SickGamingBot's status to do not disturb. |
+| `-set status idle` | `afk`, `away` | Bot maintainer | Set SickGamingBot's status to idle. |
 | `-set status invisible` | `offline` | Bot maintainer | Set SickGamingBot's status to invisible. |
 | `-set status listening` | — | Bot maintainer | Sets SickGamingBot's listening status. |
 | `-set status online` | — | Bot maintainer | Set SickGamingBot's status to online. |
@@ -202,5 +202,5 @@ an explanation of required and optional arguments.
 | `-unload` | — | Bot maintainer | Unloads previously loaded cog packages. |
 | `-uptime` | — | Member | Shows SickGamingBot's uptime. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

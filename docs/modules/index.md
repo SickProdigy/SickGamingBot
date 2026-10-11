@@ -8,6 +8,7 @@ access expectations, and where to find every subcommand.
 
 ## Getting started and bot controls
 
+- [Advanced Help](advancedhelp.md) — Interactive permission-aware command browsing and documentation inventory tools.
 - [Core](core.md) — Help, invitations, personal-data controls, server settings, and bot-host operations.
 
 ## Community and server management
@@ -67,6 +68,7 @@ access expectations, and where to find every subcommand.
 
 ## Bot administration
 
+- [Cog Manager](cogmanagerui.md) — Maintainer-only management of Red's cog discovery and installation paths.
 - [Downloader](downloader.md) — Cog repository, installation, dependency, and update management.
 
 ## Other ways to browse

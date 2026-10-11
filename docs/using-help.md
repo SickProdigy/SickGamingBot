@@ -9,8 +9,12 @@ specific subcommand. Add each part of the command path after `-help`.
 -help
 ```
 
-This shows commands currently visible to your account. Disabled commands and commands
-you cannot use may be hidden.
+This opens an interactive audience-first menu. Choose an audience area, then a category,
+then a command. The menu is built from commands currently visible to your account;
+disabled commands and commands you cannot use may be hidden.
+
+The audience labels organize the menu. They do not grant permissions or replace the
+bot's live command checks.
 
 ## Learn about a command
 

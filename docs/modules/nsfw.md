@@ -7,7 +7,7 @@
 - **Category:** Age-restricted features
 - **Intended audience:** Eligible members in restricted channels; administrators control availability.
 - **Loaded package:** `nsfw`
-- **Documented commands:** 48 commands and subcommands
+- **Documented commands:** 49 commands and subcommands
 
 ## Main command families
 

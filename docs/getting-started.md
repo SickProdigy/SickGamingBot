@@ -12,6 +12,9 @@ SickGamingBot commands use the `-` prefix. Start with:
 
 For examples and syntax conventions, read [Using SickGamingBot help](using-help.md).
 
+Bare `-help` opens the interactive command browser. Use the more specific forms when
+you already know the command or subcommand you want explained.
+
 Discord may hide commands you cannot use, and individual features may be disabled.
 
 Continue with the [member guide](members/index.md), [moderator and administrator guide](staff/index.md), or [server-owner guide](server-owners/index.md).

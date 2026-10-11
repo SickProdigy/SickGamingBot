@@ -20,7 +20,7 @@ Browse [Features](../features/index.md), [Permissions](../permissions.md), and [
 
 ## Complete member catalog
 
-The [member command catalog](../commands/members.md) lists all 300 member-accessible
+The [member command catalog](../commands/members.md) lists all 318 member-accessible
 command paths, grouped by module. Each row includes aliases, declared access, and a
 short description. For a broader explanation of what each module does, use the
 [module catalog](../modules/index.md).

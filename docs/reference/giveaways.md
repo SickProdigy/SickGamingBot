@@ -1,6 +1,6 @@
 # Giveaways commands
 
-Loaded package: `giveaways`
+Loaded package: `Giveaways`
 
 ## Reading this reference
 
@@ -13,13 +13,13 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
-| `-giveaway` | `gw`, `giveaways` | Required Discord permission | Manage the giveaway system |
+| `-giveaway` | `giveaways`, `gw` | Required Discord permission | Manage the giveaway system |
 | `-giveaway advanced` | `adv` | Required Discord permission | Advanced creation of Giveaways. |
 | `-giveaway cancel` | — | Required Discord permission | Cancel an active giveaway without drawing a winner. |
 | `-giveaway edit` | — | Required Discord permission | Edit the supported settings of an active giveaway. |
@@ -31,5 +31,5 @@ an explanation of required and optional arguments.
 | `-giveaway reroll` | — | Required Discord permission | Reroll a giveaway. |
 | `-giveaway start` | — | Required Discord permission | Start a giveaway. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

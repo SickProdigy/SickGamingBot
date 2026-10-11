@@ -1,6 +1,6 @@
 # Trivia commands
 
-Loaded package: `trivia`
+Loaded package: `Trivia`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -41,5 +41,5 @@ an explanation of required and optional arguments.
 | `-triviaset timelimit` | — | Moderator or required Discord permission | Set the maximum seconds permitted to answer a question. |
 | `-triviaset usespoilers` | — | Moderator or required Discord permission | Set if bot will display the answers in spoilers. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

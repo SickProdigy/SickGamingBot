@@ -1,10 +1,8 @@
 # Bot-maintainer commands
 
-These commands control the hosted bot, global configuration, installed code, or cross-server behavior. They are reserved for SickGamingBot maintainers.
+These command paths control the hosted bot, global configuration, installed code, or cross-server behavior. Discord server ownership does not grant this tier.
 
-Discord server ownership does not grant this tier. This catalog separates host-wide operations from commands a server owner can use.
-
-Use live help for syntax and the checks visible to your account:
+Use live help for current syntax and checks:
 
 ```text
 -help <command>
@@ -12,11 +10,11 @@ Use live help for syntax and the checks visible to your account:
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access labels come from declared command checks. Server rules, role hierarchy,
-disabled commands, channel permissions, and module configuration can further restrict
-availability. [Learn how to use command help](../using-help.md).
+The catalog is generated from the sanitized production command inventory. Server
+rules, role hierarchy, disabled commands, channel permissions, and module configuration
+can further restrict availability. [Learn how to use command help](../using-help.md).
 
-## Catalog (236 command paths)
+## Catalog (267 command paths)
 
 ### [Administration](../modules/admin.md) (3)
 
@@ -25,6 +23,30 @@ availability. [Learn how to use command help](../using-help.md).
 | `-announce` | — | Bot maintainer | Announce a message to all servers the bot is in. |
 | `-announce cancel` | — | Bot maintainer | Cancel a running announce. |
 | `-serverlock` | — | Bot maintainer | Lock a bot to its current servers only. |
+
+### [Advanced Help](../modules/advancedhelp.md) (19)
+
+| Command | Aliases | Declared access | Description |
+| --- | --- | --- | --- |
+| `-advancedhelpset` | `advhelpset` | Bot maintainer | Configure the AdvancedHelp formatter. |
+| `-advancedhelpset audience` | — | Bot maintainer | List command audience overrides. |
+| `-advancedhelpset audience appearance` | — | Bot maintainer | Set audience emoji and name\|description. |
+| `-advancedhelpset audience order` | — | Bot maintainer | Set all four audience keys in display order. |
+| `-advancedhelpset audience remove` | — | Bot maintainer | No short description is declared. |
+| `-advancedhelpset audience set` | — | Bot maintainer | Assign a command to member, staff, server_owner, or bot_owner. |
+| `-advancedhelpset category` | — | Bot maintainer | List command category overrides. |
+| `-advancedhelpset category appearance` | — | Bot maintainer | Set category order, emoji, and name\|description. |
+| `-advancedhelpset category remove` | — | Bot maintainer | No short description is declared. |
+| `-advancedhelpset category set` | — | Bot maintainer | Assign an available command to a presentation category. |
+| `-advancedhelpset deleteontimeout` | — | Bot maintainer | Delete interactive help when it expires instead of disabling it. |
+| `-advancedhelpset destination` | — | Bot maintainer | Choose channel or DM delivery for bare prefix help. |
+| `-advancedhelpset rolegroup` | — | Bot maintainer | List role-backed presentation groups. |
+| `-advancedhelpset rolegroup add` | — | Bot maintainer | Add a Discord role to a named presentation group. |
+| `-advancedhelpset rolegroup appearance` | — | Bot maintainer | Set a role group order, emoji, and name\|description. |
+| `-advancedhelpset rolegroup category` | — | Bot maintainer | Add a presentation category to a named role group. |
+| `-advancedhelpset rolegroup remove` | — | Bot maintainer | No short description is declared. |
+| `-advancedhelpset timeout` | — | Bot maintainer | Set the interactive timeout from 30 through 900 seconds. |
+| `-docsreport` | `commandinventory` | Bot maintainer | Export sanitized metadata for every registered command. |
 
 ### [Age-Restricted](../modules/nsfw.md) (1)
 
@@ -68,7 +90,7 @@ availability. [Learn how to use command help](../using-help.md).
 | `-audiostats` | — | Bot maintainer | Audio stats. |
 | `-llset` | — | Bot maintainer | `Dangerous commands` Manage Lavalink node configuration settings. |
 | `-llset config` | `conf` | Bot maintainer | Configure the managed Lavalink node runtime options. |
-| `-llset config bind` | `host`, `address` | Bot maintainer | `Dangerous command` Set the managed Lavalink node's binding IP address. |
+| `-llset config bind` | `address`, `host` | Bot maintainer | `Dangerous command` Set the managed Lavalink node's binding IP address. |
 | `-llset config port` | — | Bot maintainer | `Dangerous command` Set the managed Lavalink node's connection port. |
 | `-llset config server` | — | Bot maintainer | Configure the managed node authorization and connection settings. |
 | `-llset config server buffer` | `b` | Bot maintainer | `Dangerous command`  Set the managed Lavalink node JDA-NAS buffer size. |
@@ -81,8 +103,8 @@ availability. [Learn how to use command help](../using-help.md).
 | `-llset config source twitch` | — | Bot maintainer | Toggle Twitch source on or off. |
 | `-llset config source vimeo` | — | Bot maintainer | Toggle Vimeo source on or off. |
 | `-llset config source youtube` | `yt` | Bot maintainer | `Dangerous command` Toggle YouTube source on or off (this includes Spotify). |
-| `-llset config token` | `password`, `pass` | Bot maintainer | Set the managed Lavalink node's connection password. |
-| `-llset heapsize` | `hs`, `ram`, `memory` | Bot maintainer | Set the managed Lavalink node maximum heap-size. |
+| `-llset config token` | `pass`, `password` | Bot maintainer | Set the managed Lavalink node's connection password. |
+| `-llset heapsize` | `hs`, `memory`, `ram` | Bot maintainer | Set the managed Lavalink node maximum heap-size. |
 | `-llset host` | — | Bot maintainer | Set the Lavalink node host. |
 | `-llset info` | `settings` | Bot maintainer | Display Lavalink connection settings. |
 | `-llset java` | — | Bot maintainer | Change your Java executable path. |
@@ -95,7 +117,18 @@ availability. [Learn how to use command help](../using-help.md).
 | `-playlist download` | — | Bot maintainer | Download a copy of a playlist. |
 | `-playlist upload` | — | Bot maintainer | Uploads a playlist file as a playlist for the bot. |
 
-### [Core](../modules/core.md) (97)
+### [Cog Manager](../modules/cogmanagerui.md) (6)
+
+| Command | Aliases | Declared access | Description |
+| --- | --- | --- | --- |
+| `-addpath` | — | Bot maintainer | Add a path to the list of available cog paths. |
+| `-cogs` | — | Bot maintainer | Lists all loaded and available cogs. |
+| `-installpath` | — | Bot maintainer | Returns the current install path or sets it if one is provided. |
+| `-paths` | — | Bot maintainer | Lists current cog paths in order of priority. |
+| `-removepath` | — | Bot maintainer | Removes one or more paths from the available cog paths given the `path_numbers` from `-paths`. |
+| `-reorderpath` | — | Bot maintainer | Reorders paths internally to allow discovery of different cogs. |
+
+### [Core](../modules/core.md) (99)
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
@@ -104,6 +137,8 @@ availability. [Learn how to use command help](../using-help.md).
 | `-allowlist clear` | — | Bot maintainer | Clears the allowlist. |
 | `-allowlist list` | — | Bot maintainer | Lists users on the allowlist. |
 | `-allowlist remove` | — | Bot maintainer | Removes users from the allowlist. |
+| `-bankset prune global` | — | Bot maintainer | Prune bank accounts for users who no longer share a server with the bot. |
+| `-bankset toggleglobal` | — | Bot maintainer | Toggle whether the bank is global or not. |
 | `-blocklist` | `blacklist`, `denylist` | Bot maintainer | Commands to manage the blocklist. |
 | `-blocklist add` | — | Bot maintainer | Adds users to the blocklist. |
 | `-blocklist clear` | — | Bot maintainer | Clears the blocklist. |
@@ -171,14 +206,14 @@ availability. [Learn how to use command help](../using-help.md).
 | `-set ownernotifications listdestinations` | — | Bot maintainer | Lists the configured extra destinations for owner notifications. |
 | `-set ownernotifications optin` | — | Bot maintainer | Opt-in on receiving owner notifications. |
 | `-set ownernotifications optout` | — | Bot maintainer | Opt-out of receiving owner notifications. |
-| `-set ownernotifications removedestination` | `remdestination`, `deletedestination`, `deldestination` | Bot maintainer | Removes a destination text channel from receiving owner notifications. |
-| `-set prefix` | `prefixes`, `globalprefix`, `globalprefixes` | Bot maintainer | Sets SickGamingBot's global prefix(es). |
+| `-set ownernotifications removedestination` | `deldestination`, `deletedestination`, `remdestination` | Bot maintainer | Removes a destination text channel from receiving owner notifications. |
+| `-set prefix` | `globalprefix`, `globalprefixes`, `prefixes` | Bot maintainer | Sets SickGamingBot's global prefix(es). |
 | `-set regionalformat global` | — | Bot maintainer | Changes the bot's regional format. This is used for formatting date, time and numbers. |
 | `-set status` | — | Bot maintainer | Commands for setting SickGamingBot's status. |
 | `-set status competing` | — | Bot maintainer | Sets SickGamingBot's competing status. |
 | `-set status custom` | — | Bot maintainer | Sets SickGamingBot's custom status. |
-| `-set status dnd` | `donotdisturb`, `busy` | Bot maintainer | Set SickGamingBot's status to do not disturb. |
-| `-set status idle` | `away`, `afk` | Bot maintainer | Set SickGamingBot's status to idle. |
+| `-set status dnd` | `busy`, `donotdisturb` | Bot maintainer | Set SickGamingBot's status to do not disturb. |
+| `-set status idle` | `afk`, `away` | Bot maintainer | Set SickGamingBot's status to idle. |
 | `-set status invisible` | `offline` | Bot maintainer | Set SickGamingBot's status to invisible. |
 | `-set status listening` | — | Bot maintainer | Sets SickGamingBot's listening status. |
 | `-set status online` | — | Bot maintainer | Set SickGamingBot's status to online. |
@@ -218,19 +253,19 @@ availability. [Learn how to use command help](../using-help.md).
 | `-pipinstall` | — | Bot maintainer | Install a group of dependencies using pip. |
 | `-repo` | — | Bot maintainer | Base command for repository management. |
 | `-repo add` | — | Bot maintainer | Add a new repo. |
-| `-repo delete` | `remove`, `del` | Bot maintainer | Remove repos and their files. |
+| `-repo delete` | `del`, `remove` | Bot maintainer | Remove repos and their files. |
 | `-repo info` | — | Bot maintainer | Show information about a repo. |
 | `-repo list` | — | Bot maintainer | List all installed repos. |
 | `-repo update` | — | Bot maintainer | Update all repos, or ones of your choosing. |
 
-### [Garry’s Mod](../modules/gmod.md) (4)
+### [Garry's Mod](../modules/gmod.md) (4)
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
 | `-gmodowner` | — | Bot maintainer | Manage bot-owner-only GMod network policy. |
-| `-gmodowner privatehost` | — | Bot maintainer | See live help. |
-| `-gmodowner privatehost add` | — | Bot maintainer | See live help. |
-| `-gmodowner privatehost remove` | — | Bot maintainer | See live help. |
+| `-gmodowner privatehost` | — | Bot maintainer | No short description is declared. |
+| `-gmodowner privatehost add` | — | Bot maintainer | No short description is declared. |
+| `-gmodowner privatehost remove` | — | Bot maintainer | No short description is declared. |
 
 ### [Image](../modules/image.md) (2)
 
@@ -271,11 +306,11 @@ availability. [Learn how to use command help](../using-help.md).
 | `-permissions removeglobalrule` | — | Bot maintainer | Remove a global rule from a command. |
 | `-permissions setdefaultglobalrule` | — | Bot maintainer | Set the default global rule for a command. |
 
-### [Pokémon](../modules/pokemon.md) (20)
+### [Pokémon](../modules/pokemon.md) (21)
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
-| `-pokemonownerset` | `pokeownerset`, `pkmnownerset` | Bot maintainer | Configure bot-wide Pokémon policy and owner overrides. |
+| `-pokemonownerset` | `pkmnownerset`, `pokeownerset` | Bot maintainer | Configure bot-wide Pokémon policy and owner overrides. |
 | `-pokemonownerset catalogsync` | — | Bot maintainer | Cache catalog data for a generation. |
 | `-pokemonownerset centercooldown` | — | Bot maintainer | Set the bot-wide free Pokémon Center cooldown. |
 | `-pokemonownerset concurrency` | `slots` | Bot maintainer | Override this server’s simultaneous encounter limit. |
@@ -287,6 +322,7 @@ availability. [Learn how to use command help](../using-help.md).
 | `-pokemonownerset globalstatus` | `settings`, `status` | Bot maintainer | Show all bot-wide Pokémon policies and owner limits. |
 | `-pokemonownerset martprice` | — | Bot maintainer | Set a bot-wide Poké Mart item price. |
 | `-pokemonownerset pokedexstyle` | — | Bot maintainer | Choose the default Pokédex style for users following the default. |
+| `-pokemonownerset profile` | — | Bot maintainer | Apply a server profile with per-server owner overrides. |
 | `-pokemonownerset rarity` | — | Bot maintainer | Choose the global rarity profile. |
 | `-pokemonownerset resetplayer` | — | Bot maintainer | Reset one complete Pokémon profile. |
 | `-pokemonownerset specials` | — | Bot maintainer | Allow or gate special species. |
@@ -296,25 +332,33 @@ availability. [Learn how to use command help](../using-help.md).
 | `-pokemonownerset vippack` | — | Bot maintainer | Set the monthly VIP supply pack. |
 | `-pokemonownerset viprole` | — | Bot maintainer | Set or show the trusted guild and role for global VIP benefits. |
 
+### [RSS Publisher](../modules/rsspublisher.md) (9)
+
+| Command | Aliases | Declared access | Description |
+| --- | --- | --- | --- |
+| `-rsspublisher migrationstatus` | — | Bot maintainer | Show migration status. |
+| `-rsspublisher parse` | — | Bot maintainer | Manage domain parsing. |
+| `-rsspublisher parse add` | — | Bot maintainer | Add a website to the list for a time parsing override. |
+| `-rsspublisher parse list` | — | Bot maintainer | Show the list for time parsing overrides. |
+| `-rsspublisher parse remove` | `del`, `delete` | Bot maintainer | Remove a website from the list for a time parsing override. |
+| `-rsspublisher privatehost` | — | Bot maintainer | Manage trusted private hosts. |
+| `-rsspublisher privatehost add` | — | Bot maintainer | Allow one private hostname or IP address for RSS requests. |
+| `-rsspublisher privatehost list` | — | Bot maintainer | List private RSS hosts explicitly trusted by the bot owner. |
+| `-rsspublisher privatehost remove` | `delete` | Bot maintainer | Remove a private hostname or IP address from the RSS allowlist. |
+
 ### [Rocket League](../modules/rocketleague.md) (1)
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
 | `-rlcsset refresh` | — | Bot maintainer | Refresh BLAST when the seven-day request window permits. |
 
-### [RSS Publisher](../modules/rsspublisher.md) (9)
+### [Role Tools](../modules/roletools.md) (3)
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
-| `-rsspublisher migrationstatus` | — | Bot maintainer | Owner: show legacy RSS migration status. |
-| `-rsspublisher parse` | — | Bot maintainer | Change feed parsing for a specfic domain. |
-| `-rsspublisher parse add` | — | Bot maintainer | Add a website to the list for a time parsing override. |
-| `-rsspublisher parse list` | — | Bot maintainer | Show the list for time parsing overrides. |
-| `-rsspublisher parse remove` | `delete`, `del` | Bot maintainer | Remove a website from the list for a time parsing override. |
-| `-rsspublisher privatehost` | — | Bot maintainer | Manage private feed hosts that the bot owner intentionally trusts. |
-| `-rsspublisher privatehost add` | — | Bot maintainer | Allow one private hostname or IP address for RSS requests. |
-| `-rsspublisher privatehost list` | — | Bot maintainer | List private RSS hosts explicitly trusted by the bot owner. |
-| `-rsspublisher privatehost remove` | `delete` | Bot maintainer | Remove a private hostname or IP address from the RSS allowlist. |
+| `-roletools globalatomic` | — | Bot maintainer | Set the atomicity of role assignment. |
+| `-roletools migrationstatus` | — | Bot maintainer | Owner migration status. |
+| `-roletools reaction ownercleanup` | — | Bot maintainer | Cleanup old/missing reaction roles and settings on the bot. |
 
 ### [Streams](../modules/streams.md) (3)
 
@@ -338,6 +382,3 @@ availability. [Learn how to use command help](../using-help.md).
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
 | `-welcomeset migrationstatus` | — | Bot maintainer | Owner: show the external Welcome import status. |
-
-Live `-help` output remains authoritative for enabled state, hidden commands,
-arguments, cooldowns, and server-specific access.

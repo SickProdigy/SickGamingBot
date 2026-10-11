@@ -1,6 +1,6 @@
 # Downloader commands
 
-Loaded package: `downloader`
+Loaded package: `Downloader`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -37,10 +37,10 @@ an explanation of required and optional arguments.
 | `-pipinstall` | — | Bot maintainer | Install a group of dependencies using pip. |
 | `-repo` | — | Bot maintainer | Base command for repository management. |
 | `-repo add` | — | Bot maintainer | Add a new repo. |
-| `-repo delete` | `remove`, `del` | Bot maintainer | Remove repos and their files. |
+| `-repo delete` | `del`, `remove` | Bot maintainer | Remove repos and their files. |
 | `-repo info` | — | Bot maintainer | Show information about a repo. |
 | `-repo list` | — | Bot maintainer | List all installed repos. |
 | `-repo update` | — | Bot maintainer | Update all repos, or ones of your choosing. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

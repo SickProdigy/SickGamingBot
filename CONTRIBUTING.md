@@ -68,7 +68,15 @@ When an officially loaded command or cog changes, review all affected areas:
 - `docs/command-status.md`
 
 Aliases, descriptions, complete subcommand paths, access classification, and catalog
-counts should remain consistent.
+counts should remain consistent. Maintainers can regenerate these catalogs from a sanitized
+production export with:
+
+```text
+python3 tools/update_command_docs.py path/to/sickgamingbot-command-inventory.json
+```
+
+Review the resulting diff and update the narrative feature and setup pages whenever the
+loaded module set or user-facing behavior changes.
 
 ## Pull requests
 

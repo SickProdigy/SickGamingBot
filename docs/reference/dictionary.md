@@ -1,6 +1,6 @@
 # Dictionary commands
 
-Loaded package: `dictionary`
+Loaded package: `Dictionary`
 
 ## Reading this reference
 
@@ -13,15 +13,15 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
-| `-antonym` | `antonyms`, `ant` | Member | Show antonyms for an English word. |
-| `-dictionary` | `dict`, `define` | Member | Look up an English word or phrase. |
-| `-synonym` | `synonyms`, `syn` | Member | Show synonyms for an English word. |
+| `-antonym` | `ant`, `antonyms` | Member | Show antonyms for an English word. |
+| `-dictionary` | `define`, `dict` | Member | Look up an English word or phrase. |
+| `-synonym` | `syn`, `synonyms` | Member | Show synonyms for an English word. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

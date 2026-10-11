@@ -7,7 +7,7 @@
 - **Category:** Games and gaming communities
 - **Intended audience:** Members play; administrators configure server behavior; maintainers manage global settings.
 - **Loaded package:** `pokemon`
-- **Documented commands:** 71 commands and subcommands
+- **Documented commands:** 73 commands and subcommands
 
 ## Main command families
 

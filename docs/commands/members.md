@@ -1,10 +1,8 @@
 # Member commands
 
-These commands are available to ordinary members when their module is enabled and the bot can act in the channel.
+These are ordinary member and self-service command paths. Staff and server owners also retain commands available to them through the live permission system.
 
-This is the member tier only. Staff and server owners also retain these commands.
-
-Use live help for syntax and the checks visible to your account:
+Use live help for current syntax and checks:
 
 ```text
 -help <command>
@@ -12,11 +10,19 @@ Use live help for syntax and the checks visible to your account:
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access labels come from declared command checks. Server rules, role hierarchy,
-disabled commands, channel permissions, and module configuration can further restrict
-availability. [Learn how to use command help](../using-help.md).
+The catalog is generated from the sanitized production command inventory. Server
+rules, role hierarchy, disabled commands, channel permissions, and module configuration
+can further restrict availability. [Learn how to use command help](../using-help.md).
 
-## Catalog (300 command paths)
+## Catalog (318 command paths)
+
+### [ARK](../modules/ark.md) (3)
+
+| Command | Aliases | Declared access | Description |
+| --- | --- | --- | --- |
+| `-ark` | — | Member | View the latest official ARK: Survival Ascended announcement. |
+| `-ark latest` | — | Member | Show the latest official Steam announcement, optionally by category. |
+| `-ark updates` | — | Member | Show 2 to 10 recent announcements as a newest-to-oldest clickable list. |
 
 ### [Administration](../modules/admin.md) (4)
 
@@ -35,12 +41,12 @@ availability. [Learn how to use command help](../using-help.md).
 | `-ahegao` | `oface`, `ofaces` | Member | Sends some ahegao images from random subreddits. |
 | `-anal` | `sodomy` | Member | Sends some anal images/gifs from random subreddits. |
 | `-asianporn` | `asian` | Member | Sends some asian porn images. |
-| `-ass` | `butt`, `booty` | Member | Sends some ass images from random subreddits. |
+| `-ass` | `booty`, `butt` | Member | Sends some ass images from random subreddits. |
 | `-bbw` | — | Member | Sends some bbw images. |
 | `-bdsm` | `shibari` | Member | Sends some bdsm from random subreddits. |
-| `-blackcock` | `blackdick`, `bcock`, `bdick`, `blackcocks`, `blackdicks` | Member | Sends some blackcock images from random subreddits. |
-| `-blowjob` | `blowjobs`, `blowj`, `bjob`, `fellatio`, `fellation` | Member | Sends some blowjob images/gifs from random subreddits. |
-| `-boobs` | `boob`, `boobies`, `tits`, `titties`, `breasts`, `breast` | Member | Sends some boobs images from random subreddits. |
+| `-blackcock` | `bcock`, `bdick`, `blackcocks`, `blackdick`, `blackdicks` | Member | Sends some blackcock images from random subreddits. |
+| `-blowjob` | `bjob`, `blowj`, `blowjobs`, `fellatio`, `fellation` | Member | Sends some blowjob images/gifs from random subreddits. |
+| `-boobs` | `boob`, `boobies`, `breast`, `breasts`, `tits`, `titties` | Member | Sends some boobs images from random subreddits. |
 | `-bottomless` | `boless` | Member | Sends some bottomless images from random subreddits. |
 | `-cleandm` | — | Member | Delete a number specified of DM's from the bot. |
 | `-cosplay` | — | Member | Sends some nsfw cosplay images from random subreddits. |
@@ -51,11 +57,11 @@ availability. [Learn how to use command help](../using-help.md).
 | `-doublepenetration` | `doublep` | Member | Sends some double penetration images/gifs from random subreddits. |
 | `-ebony` | — | Member | Sends some ebony images. |
 | `-facials` | `facial` | Member | Sends some facials images from random subreddits. |
-| `-feet` | `feets`, `feetish` | Member | Sends some feet images from random subreddits. |
+| `-feet` | `feetish`, `feets` | Member | Sends some feet images from random subreddits. |
 | `-femdom` | — | Member | Sends some femdom images from random subreddits. |
 | `-futa` | `futanari` | Member | Sends some futa images from random subreddits. |
 | `-gay` | `gayporn` | Member | Sends some gay porn from random subreddits. |
-| `-gonewild` | `wild`, `gwild` | Member | Sends some gonewild images from random subreddits. |
+| `-gonewild` | `gwild`, `wild` | Member | Sends some gonewild images from random subreddits. |
 | `-group` | `groups`, `nudegroup`, `nudegroups` | Member | Sends some groups nudes from random subreddits. |
 | `-hentai` | — | Member | Sends some hentai images/gifs from Nekobot API. |
 | `-lesbian` | `lesbians` | Member | Sends some lesbian gifs or images from random subreddits. |
@@ -64,14 +70,14 @@ availability. [Learn how to use command help](../using-help.md).
 | `-oral` | `oralsex` | Member | Sends some oral gifs or images from random subreddits. |
 | `-porngif` | `pgif`, `prongif` | Member | Sends some porn gifs from Nekobot API. |
 | `-public` | — | Member | Sends some public nude images from random subreddits. |
-| `-pussy` | `vagina`, `puss` | Member | Sends some pussy nude images from random subreddits. |
+| `-pussy` | `puss`, `vagina` | Member | Sends some pussy nude images from random subreddits. |
 | `-realgirls` | — | Member | Sends some real girls images from random subreddits. |
-| `-redhead` | `redheads`, `ginger`, `gingers` | Member | Sends some red heads images from random subreddits. |
+| `-redhead` | `ginger`, `gingers`, `redheads` | Member | Sends some red heads images from random subreddits. |
 | `-rule34` | `r34` | Member | Sends some rule34 images from random subreddits. |
 | `-squirt` | `squirts` | Member | Sends some squirts images from random subreddits. |
-| `-thigh` | `thighs`, `legs` | Member | Sends some thighs images from random subreddits. |
+| `-thigh` | `legs`, `thighs` | Member | Sends some thighs images from random subreddits. |
 | `-threesome` | `groupsex` | Member | Sends some threesome images. |
-| `-trans` | `trap`, `shemale`, `shemales` | Member | Sends some trans from random subreddits. |
+| `-trans` | `shemale`, `shemales`, `trap` | Member | Sends some trans from random subreddits. |
 | `-yiff` | `yiffs` | Member | Sends some yiff images from random subreddits. |
 
 ### [Aliases](../modules/alias.md) (6)
@@ -85,15 +91,7 @@ availability. [Learn how to use command help](../using-help.md).
 | `-alias list` | — | Member | List the available aliases on this server. |
 | `-alias show` | — | Member | Show what command the alias executes. |
 
-### [ARK](../modules/ark.md) (3)
-
-| Command | Aliases | Declared access | Description |
-| --- | --- | --- | --- |
-| `-ark` | — | Member | View the latest official ARK: Survival Ascended announcement. |
-| `-ark latest` | — | Member | Show the latest official Steam announcement, optionally by category. |
-| `-ark updates` | — | Member | Show 2 to 10 recent announcements as a newest-to-oldest clickable list. |
-
-### [Audio](../modules/audio.md) (55)
+### [Audio](../modules/audio.md) (54)
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
@@ -102,7 +100,6 @@ availability. [Learn how to use command help](../using-help.md).
 | `-audioset settings` | `info` | Member | Show the current settings. |
 | `-bump` | — | Member | Bump a track number to the top of the queue. |
 | `-bumpplay` | — | Member | Force play a URL or search for a track. |
-| `-command_audioset_restart` | — | Member | See live help. |
 | `-disconnect` | — | Member | Disconnect from the voice channel. |
 | `-eq` | — | Member | Equalizer management. |
 | `-eq delete` | `del`, `remove` | Member | Delete a saved eq preset. |
@@ -200,7 +197,7 @@ availability. [Learn how to use command help](../using-help.md).
 | `-embedset` | — | Member | Commands for toggling embeds on or off. |
 | `-embedset showsettings` | — | Member | Show the current embed settings. |
 | `-embedset user` | — | Member | Sets personal embed setting for DMs. |
-| `-help` | — | Member | Shows commands available to you or detailed help for one command. |
+| `-help` | — | Member | I need somebody |
 | `-ignore` | — | Member | Commands to add servers or channels to the ignore list. |
 | `-ignore channel` | — | Member | Ignore commands in the channel, thread, or category. |
 | `-ignore list` | — | Member | List the currently ignored servers and channels. |
@@ -241,9 +238,9 @@ availability. [Learn how to use command help](../using-help.md).
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
-| `-antonym` | `antonyms`, `ant` | Member | Show antonyms for an English word. |
-| `-dictionary` | `dict`, `define` | Member | Look up an English word or phrase. |
-| `-synonym` | `synonyms`, `syn` | Member | Show synonyms for an English word. |
+| `-antonym` | `ant`, `antonyms` | Member | Show antonyms for an English word. |
+| `-dictionary` | `define`, `dict` | Member | Look up an English word or phrase. |
+| `-synonym` | `syn`, `synonyms` | Member | Show synonyms for an English word. |
 
 ### [Downloader](../modules/downloader.md) (1)
 
@@ -267,18 +264,18 @@ availability. [Learn how to use command help](../using-help.md).
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
-| `-gameroles` | `gamerole`, `clanroles`, `clanrole` | Member | Assign approved game roles through a dashboard or fallback commands. |
+| `-gameroles` | `clanrole`, `clanroles`, `gamerole` | Member | Assign approved game roles through a dashboard or fallback commands. |
 | `-gameroles add` | `assign` | Member | Add an approved game role; the optional game keeps legacy syntax working. |
 | `-gameroles remove` | `rem`, `unassign` | Member | Remove an approved game role; the optional game keeps legacy syntax working. |
 
-### [Garry’s Mod](../modules/gmod.md) (5)
+### [Garry's Mod](../modules/gmod.md) (5)
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
 | `-gmod` | — | Member | Show Garry's Mod server status and browse official updates. |
-| `-gmod connect` | — | Member | See live help. |
-| `-gmod servers` | — | Member | See live help. |
-| `-gmod status` | — | Member | See live help. |
+| `-gmod connect` | — | Member | No short description is declared. |
+| `-gmod servers` | — | Member | No short description is declared. |
+| `-gmod status` | — | Member | No short description is declared. |
 | `-gmod updates` | — | Member | Show 1 to 10 recent official Steam announcements. |
 
 ### [General](../modules/general.md) (10)
@@ -440,11 +437,30 @@ availability. [Learn how to use command help](../using-help.md).
 | `-rocketleague tournaments recent` | — | Member | Show recently completed configured Rocket League tournaments. |
 | `-rocketleague tournaments upcoming` | — | Member | Show upcoming configured Rocket League tournaments. |
 
-### [Role Tools](../modules/roletools.md) (2)
+### [Role Tools](../modules/roletools.md) (21)
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
 | `-roletools` | — | Member | Member role help and server role-management commands. |
+| `-roletools exclude` | `exclusive` | Member | Manage conflicting roles. |
+| `-roletools group` | `groups`, `privategroups` | Member | View or manage private access groups. |
+| `-roletools group join` | — | Member | Join a private group after its prerequisites and access cost are checked. |
+| `-roletools group leave` | — | Member | Leave a private group and remove its gateway/selectable roles. |
+| `-roletools group view` | — | Member | Show a private group's access rules and roles. |
+| `-roletools include` | `inclusive` | Member | Manage linked roles. |
+| `-roletools message` | — | Member | Manage RoleTools messages. |
+| `-roletools message edit` | — | Member | Edit a bots message to include Role Buttons |
+| `-roletools message editbutton` | — | Member | Edit a bots message to include Role Buttons |
+| `-roletools message editselect` | — | Member | Edit a bots message to include Select Menus |
+| `-roletools message send` | — | Member | Send a select menu to a specified channel for role assignment |
+| `-roletools message sendbutton` | — | Member | Send buttons to a specified channel with optional message. |
+| `-roletools message sendselect` | — | Member | Send a select menu to a specified channel for role assignment |
+| `-roletools reaction` | `react`, `reactions` | Member | Manage reaction roles. |
+| `-roletools required` | `req`, `require`, `requires` | Member | Manage role requirements. |
+| `-roletools selfrole` | — | Member | Toggle a self-role. |
+| `-roletools temporary` | `temp` | Member | Manage temporary roles. |
+| `-roletools temporary list` | — | Member | List the currently pending temporary roles and when they expire. |
+| `-roletools viewroles` | `viewrole` | Member | View available or configured roles. |
 | `-selfroles` | — | Member | List available self-roles. |
 
 ### [RuneScape](../modules/runescape.md) (6)
@@ -492,6 +508,3 @@ availability. [Learn how to use command help](../using-help.md).
 | `-wolframexample` | `wolframrandom` | Member | Show a curated Wolfram example. |
 | `-wolframimage` | — | Member | Ask Wolfram\|Alpha a question and return an image. |
 | `-wolframsolve` | — | Member | Ask Wolfram\|Alpha a math question and return step-by-step answers. |
-
-Live `-help` output remains authoritative for enabled state, hidden commands,
-arguments, cooldowns, and server-specific access.

@@ -1,6 +1,6 @@
 # Audio commands
 
-Loaded package: `audio`
+Loaded package: `Audio`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -78,7 +78,6 @@ an explanation of required and optional arguments.
 | `-autoplay` | — | Moderator or required Discord permission | Starts auto play. |
 | `-bump` | — | Member | Bump a track number to the top of the queue. |
 | `-bumpplay` | — | Member | Force play a URL or search for a track. |
-| `-command_audioset_restart` | — | Member | See live help. |
 | `-disconnect` | — | Member | Disconnect from the voice channel. |
 | `-eq` | — | Member | Equalizer management. |
 | `-eq delete` | `del`, `remove` | Member | Delete a saved eq preset. |
@@ -90,7 +89,7 @@ an explanation of required and optional arguments.
 | `-genre` | — | Member | Pick a Spotify playlist from a list of categories to start playing. |
 | `-llset` | — | Bot maintainer | `Dangerous commands` Manage Lavalink node configuration settings. |
 | `-llset config` | `conf` | Bot maintainer | Configure the managed Lavalink node runtime options. |
-| `-llset config bind` | `host`, `address` | Bot maintainer | `Dangerous command` Set the managed Lavalink node's binding IP address. |
+| `-llset config bind` | `address`, `host` | Bot maintainer | `Dangerous command` Set the managed Lavalink node's binding IP address. |
 | `-llset config port` | — | Bot maintainer | `Dangerous command` Set the managed Lavalink node's connection port. |
 | `-llset config server` | — | Bot maintainer | Configure the managed node authorization and connection settings. |
 | `-llset config server buffer` | `b` | Bot maintainer | `Dangerous command`  Set the managed Lavalink node JDA-NAS buffer size. |
@@ -103,8 +102,8 @@ an explanation of required and optional arguments.
 | `-llset config source twitch` | — | Bot maintainer | Toggle Twitch source on or off. |
 | `-llset config source vimeo` | — | Bot maintainer | Toggle Vimeo source on or off. |
 | `-llset config source youtube` | `yt` | Bot maintainer | `Dangerous command` Toggle YouTube source on or off (this includes Spotify). |
-| `-llset config token` | `password`, `pass` | Bot maintainer | Set the managed Lavalink node's connection password. |
-| `-llset heapsize` | `hs`, `ram`, `memory` | Bot maintainer | Set the managed Lavalink node maximum heap-size. |
+| `-llset config token` | `pass`, `password` | Bot maintainer | Set the managed Lavalink node's connection password. |
+| `-llset heapsize` | `hs`, `memory`, `ram` | Bot maintainer | Set the managed Lavalink node maximum heap-size. |
 | `-llset host` | — | Bot maintainer | Set the Lavalink node host. |
 | `-llset info` | `settings` | Bot maintainer | Display Lavalink connection settings. |
 | `-llset java` | — | Bot maintainer | Change your Java executable path. |
@@ -157,5 +156,5 @@ an explanation of required and optional arguments.
 | `-summon` | — | Member | Summon the bot to a voice channel. |
 | `-volume` | — | Member | Set the volume, 1% - 150%. |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

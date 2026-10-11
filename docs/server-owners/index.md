@@ -29,7 +29,7 @@ The bot host controls installed code, global credentials, restarts, infrastructu
 
 ## Complete owner catalog
 
-The [server-owner command catalog](../commands/server-owners.md) lists all 93 command
+The [server-owner command catalog](../commands/server-owners.md) lists all 91 command
 paths that declare server ownership or an equivalent Discord permission as their
 primary boundary. Owners also retain the [staff commands](../commands/staff.md) and
 [member commands](../commands/members.md).

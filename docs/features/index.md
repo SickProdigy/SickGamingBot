@@ -1,8 +1,8 @@
 # Features
 
 SickGamingBot combines community management, moderation, media, games, utilities, and
-external-service integrations. This overview reflects the 38 cogs loaded by the official
-bot on 2026-10-11, plus its always-available Red core commands. Open the
+external-service integrations. This overview reflects the 42 command cogs reported by
+the official bot on 2026-10-11, including its Red core components. Open the
 [full module catalog](../modules/index.md) for a dedicated overview of each module.
 
 Features can still be disabled or restricted in an individual Discord server. Use
@@ -68,6 +68,8 @@ this module is enabled.
 
 ## Bot administration
 
+- [Advanced Help](../modules/advancedhelp.md) — permission-aware interactive help and sanitized command inventory export.
+- [Cog Manager](../modules/cogmanagerui.md) — maintainer-only cog path and installation controls.
 - [Administration](../modules/admin.md) — roles, self-roles, announcements, and restricted global operations.
 - [Downloader](../modules/downloader.md) — maintainer-only cog repository and installation management.
 - [Core](../modules/core.md) — help, invitations, data controls, bot settings, and host-level operations.

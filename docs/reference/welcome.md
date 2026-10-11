@@ -1,6 +1,6 @@
 # Welcome commands
 
-Loaded package: `welcome`
+Loaded package: `Welcome`
 
 ## Reading this reference
 
@@ -13,9 +13,9 @@ Each command is shown as its complete path. To see detailed help, put that path 
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access column is derived from declared command checks. Server-specific permission
-rules can change it. See [Using SickGamingBot help](../using-help.md) for examples and
-an explanation of required and optional arguments.
+The access column comes from the command checks declared by the running bot. Live
+permissions, disabled commands, parent checks, role hierarchy, and server rules can
+further restrict availability. See [Using SickGamingBot help](../using-help.md).
 
 | Command | Aliases | Access | Description |
 | --- | --- | --- | --- |
@@ -29,7 +29,7 @@ an explanation of required and optional arguments.
 | `-welcomeset embed author` | — | Administrator or required Discord permission | Toggle the author field being filled in the embed. |
 | `-welcomeset embed colour` | `color` | Administrator or required Discord permission | Set the embed colour. |
 | `-welcomeset embed footer` | — | Administrator or required Discord permission | Set the embed footer. |
-| `-welcomeset embed goodbyecolour` | `gcolor`, `goodbyecolor`, `gcolour` | Administrator or required Discord permission | Set the embed colour. |
+| `-welcomeset embed goodbyecolour` | `gcolor`, `gcolour`, `goodbyecolor` | Administrator or required Discord permission | Set the embed colour. |
 | `-welcomeset embed icon` | — | Administrator or required Discord permission | Set the embed icon image. |
 | `-welcomeset embed image` | — | Administrator or required Discord permission | Set embed image options. |
 | `-welcomeset embed image goodbye` | — | Administrator or required Discord permission | Set the embed image link for goodbyes. |
@@ -45,7 +45,7 @@ an explanation of required and optional arguments.
 | `-welcomeset goodbye channel` | — | Administrator or required Discord permission | Sets the channel to send the goodbye message. |
 | `-welcomeset goodbye deleteafter` | — | Administrator or required Discord permission | Set the time after which a greeting message is deleted in seconds. |
 | `-welcomeset goodbye deleteprevious` | — | Administrator or required Discord permission | Turns on/off deleting the previous greeting message when a user joins. |
-| `-welcomeset goodbye list` | `edit`, `delete`, `del` | Administrator or required Discord permission | Lists the goodbye messages of this guild and allows editing the settings. |
+| `-welcomeset goodbye list` | `del`, `delete`, `edit` | Administrator or required Discord permission | Lists the goodbye messages of this guild and allows editing the settings. |
 | `-welcomeset goodbye test` | — | Administrator or required Discord permission | Test the goodbye message deleted after 60 seconds |
 | `-welcomeset goodbye toggle` | — | Administrator or required Discord permission | Turns on/off sending goodbye messages to users who leave to the guild. |
 | `-welcomeset greeting` | `welcome` | Administrator or required Discord permission | Manage welcome messages |
@@ -57,7 +57,7 @@ an explanation of required and optional arguments.
 | `-welcomeset greeting deleteprevious` | — | Administrator or required Discord permission | Turns on/off deleting the previous greeting message when a user joins. |
 | `-welcomeset greeting filter` | — | Administrator or required Discord permission | Set what to do when a username matches the bots filter. |
 | `-welcomeset greeting grouped` | — | Administrator or required Discord permission | Set whether to group greeting messages |
-| `-welcomeset greeting list` | `edit`, `delete`, `del` | Administrator or required Discord permission | Lists the greeting messages of this guild and allows editing the settings. |
+| `-welcomeset greeting list` | `del`, `delete`, `edit` | Administrator or required Discord permission | Lists the greeting messages of this guild and allows editing the settings. |
 | `-welcomeset greeting minimumage` | `age` | Administrator or required Discord permission | Set the minimum number of days a user account must be to show up in the greeting message. |
 | `-welcomeset greeting pending` | — | Administrator or required Discord permission | Set whether to wait for the user to pass verification to send the welcome |
 | `-welcomeset greeting test` | — | Administrator or required Discord permission | Test the greeting message deleted after 60 seconds. |
@@ -66,5 +66,5 @@ an explanation of required and optional arguments.
 | `-welcomeset settings` | — | Administrator or required Discord permission | Show the servers welcome settings |
 | `-welcomeset whisper` | — | Administrator or required Discord permission | Sets whether or not a DM is sent to the new user |
 
-Live `-help` output remains authoritative for enabled state, hidden commands,
+Live `-help` output remains authoritative for syntax, enabled state, hidden commands,
 arguments, cooldowns, and server-specific access.

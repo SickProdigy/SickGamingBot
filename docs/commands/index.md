@@ -22,10 +22,9 @@ but they are not the current permission model.
 
 ## Baseline
 
-The official runtime baseline was reviewed on 2026-10-10. SickGamingBot was running
-Red 3.5.24 with 38 loaded packages and the `-` prefix. The custom cog reference uses
-the installed Sick-Cogs source at commit
-`42693ae13d35c0662abfd886ed6c2eb5332dc172`.
+The official runtime inventory was generated on 2026-10-11. SickGamingBot was running
+Red 3.5.24 with 42 loaded command cogs, 40 loaded extensions, 1,181 registered command
+paths, and the `-` prefix. It was exported by AdvancedHelp 0.2.0 using inventory schema 1.
 
 Loaded packages define the documented baseline. Individual commands or modules can
 still be disabled, hidden, or restricted for a particular server, so live help remains

@@ -1,10 +1,8 @@
 # Server-owner commands
 
-These commands declare server ownership or an equivalent Discord permission as their primary access boundary.
+These command paths declare Discord server ownership as their primary boundary. Server owners also use member and staff commands allowed by the live permission system.
 
-This page lists the server-owner tier only. Server owners also retain the [member commands](members.md) and [staff commands](staff.md). Bot-host operations are kept separate in the [maintainer catalog](maintainers.md).
-
-Use live help for syntax and the checks visible to your account:
+Use live help for current syntax and checks:
 
 ```text
 -help <command>
@@ -12,11 +10,11 @@ Use live help for syntax and the checks visible to your account:
 -help <command> <subcommand> <nested-subcommand>
 ```
 
-The access labels come from declared command checks. Server rules, role hierarchy,
-disabled commands, channel permissions, and module configuration can further restrict
-availability. [Learn how to use command help](../using-help.md).
+The catalog is generated from the sanitized production command inventory. Server
+rules, role hierarchy, disabled commands, channel permissions, and module configuration
+can further restrict availability. [Learn how to use command help](../using-help.md).
 
-## Catalog (93 command paths)
+## Catalog (91 command paths)
 
 ### [Administration](../modules/admin.md) (3)
 
@@ -26,7 +24,7 @@ availability. [Learn how to use command help](../using-help.md).
 | `-announceset channel` | — | Server owner or required Discord permission | Change the channel where the bot will send announcements. |
 | `-announceset clearchannel` | — | Server owner or required Discord permission | Unsets the channel for announcements. |
 
-### [Core](../modules/core.md) (48)
+### [Core](../modules/core.md) (46)
 
 | Command | Aliases | Declared access | Description |
 | --- | --- | --- | --- |
@@ -40,13 +38,11 @@ availability. [Learn how to use command help](../using-help.md).
 | `-bankset creditsname` | — | Server owner or required Discord permission | Set the name for the bank's currency. |
 | `-bankset maxbal` | — | Server owner or required Discord permission | Set the maximum balance a user can get. |
 | `-bankset prune` | — | Server owner or required Discord permission | Base command for pruning bank accounts. |
-| `-bankset prune global` | — | Server owner or required Discord permission | Prune bank accounts for users who no longer share a server with the bot. |
 | `-bankset prune server` | `guild`, `local` | Server owner or required Discord permission | Prune bank accounts for users no longer in the server. |
 | `-bankset prune user` | — | Server owner or required Discord permission | Delete the bank account of a specified user. |
 | `-bankset registeramount` | — | Server owner or required Discord permission | Set the initial balance for new bank accounts. |
 | `-bankset reset` | — | Server owner or required Discord permission | Delete all bank accounts. |
 | `-bankset showsettings` | — | Server owner or required Discord permission | Show the current bank settings. |
-| `-bankset toggleglobal` | — | Server owner or required Discord permission | Toggle whether the bank is global or not. |
 | `-command` | — | Server owner or required Discord permission | Commands to enable and disable commands and cogs. |
 | `-command disable` | — | Server owner or required Discord permission | Disable a command. |
 | `-command disable server` | `guild` | Server owner or required Discord permission | Disable a command in this server only. |
@@ -68,14 +64,14 @@ availability. [Learn how to use command help](../using-help.md).
 | `-modlogset resetcases` | — | Server owner or required Discord permission | Reset all modlog cases in this server. |
 | `-set deletedelay` | — | Server owner or required Discord permission | Set the delay until the bot removes the command message. |
 | `-set locale` | — | Server owner or required Discord permission | Changes SickGamingBot's locale in this server. |
-| `-set locale server` | `local`, `guild` | Server owner or required Discord permission | Changes SickGamingBot's locale in this server. |
+| `-set locale server` | `guild`, `local` | Server owner or required Discord permission | Changes SickGamingBot's locale in this server. |
 | `-set regionalformat` | `region` | Server owner or required Discord permission | Changes the bot's regional format in this server. This is used for formatting date, time and numbers. |
-| `-set regionalformat server` | `local`, `guild` | Server owner or required Discord permission | Changes the bot's regional format in this server. This is used for formatting date, time and numbers. |
+| `-set regionalformat server` | `guild`, `local` | Server owner or required Discord permission | Changes the bot's regional format in this server. This is used for formatting date, time and numbers. |
 | `-set roles` | — | Server owner | Set server's admin and mod roles for SickGamingBot. |
 | `-set roles addadminrole` | — | Server owner | Adds an admin role for this server. |
 | `-set roles addmodrole` | — | Server owner | Adds a moderator role for this server. |
-| `-set roles removeadminrole` | `remadmindrole`, `deladminrole`, `deleteadminrole` | Server owner | Removes an admin role for this server. |
-| `-set roles removemodrole` | `remmodrole`, `delmodrole`, `deletemodrole` | Server owner | Removes a mod role for this server. |
+| `-set roles removeadminrole` | `deladminrole`, `deleteadminrole`, `remadmindrole` | Server owner | Removes an admin role for this server. |
+| `-set roles removemodrole` | `deletemodrole`, `delmodrole`, `remmodrole` | Server owner | Removes a mod role for this server. |
 | `-set serverfuzzy` | — | Server owner | Toggle whether to enable fuzzy command search for the server. |
 | `-set usebotcolour` | `usebotcolor` | Server owner | Toggle whether to use the bot owner-configured colour for embeds. |
 
@@ -134,7 +130,4 @@ availability. [Learn how to use command help](../using-help.md).
 | `-warningset warnchannel` | — | Server owner or required Discord permission | Set the channel where warnings should be sent to. |
 | `-warnreason` | — | Server owner or required Discord permission | Manage warning reasons. |
 | `-warnreason create` | `add` | Server owner or required Discord permission | Create a warning reason. |
-| `-warnreason delete` | `remove`, `del` | Server owner or required Discord permission | Delete a warning reason. |
-
-Live `-help` output remains authoritative for enabled state, hidden commands,
-arguments, cooldowns, and server-specific access.
+| `-warnreason delete` | `del`, `remove` | Server owner or required Discord permission | Delete a warning reason. |
