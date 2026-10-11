@@ -79,3 +79,11 @@ restarting the bot, and other host operations are maintainer-only. Read
 
 This repository documents the public bot experience. Cog source and development
 information live in the [Sick-Cogs repository](/SickProdigy/Sick-Cogs).
+
+## Contributing and license
+
+Documentation corrections and improvements are welcome. Read [Contributing](CONTRIBUTING.md)
+before opening a change, or choose a repository issue template for a correction or request.
+
+SickGamingBot public documentation is licensed under the [GNU General Public License
+version 3](LICENSE).
