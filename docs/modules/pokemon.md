@@ -30,8 +30,13 @@ The bot only shows commands available to your account. Server-specific permissio
 rules, disabled commands, required integrations, and channel restrictions can change
 what you can use.
 
+Eligible SickGaming VIP trainers receive a profile marker, expanded PC storage, and a
+monthly supply pack through ordinary Pokémon commands. See the [VIP guide](../vip/index.md)
+for current benefits and boundaries.
+
 ## Learn more
 
 - [Complete Pokémon command reference](../reference/pokemon.md)
+- [SickGaming VIP guide](../vip/index.md)
 - [Using SickGamingBot help](../using-help.md)
 - [Permissions and access levels](../permissions.md)

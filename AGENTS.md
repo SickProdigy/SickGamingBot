@@ -19,3 +19,5 @@
   historical snapshots while the owner evaluates the current documentation direction.
 - Regenerate reference and audience catalogs with `tools/update_command_docs.py` using
   the sanitized production `-docsreport` JSON, then reconcile narrative pages and counts.
+- Treat VIP as a curated benefit guide, not a generated permission tier. Document only
+  benefits active on the production bot and keep maintainer-only VIP controls separate.

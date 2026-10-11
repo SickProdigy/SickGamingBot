@@ -9,6 +9,11 @@ Features can still be disabled or restricted in an individual Discord server. Us
 `-help` to see what is available to you, or read [Using SickGamingBot help](../using-help.md)
 to look up a specific command or subcommand.
 
+## SickGaming VIP
+
+- [VIP benefits](../vip/index.md) — current Pokémon benefits, related member commands,
+  maintainer controls, and features that are still under development.
+
 ## Community and server management
 
 - [Aliases](../modules/alias.md) — create memorable alternative names for commands.

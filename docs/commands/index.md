@@ -3,6 +3,7 @@
 Start with the guide that matches what you are trying to do:
 
 - [Member commands](members.md) cover everyday utilities, games, media, profiles, and self-service actions.
+- [VIP commands and benefits](vip.md) identify the ordinary commands with current VIP-aware behavior and the separate maintainer controls.
 - [Staff commands](staff.md) cover moderation and delegated feature management.
 - [Server-owner commands](server-owners.md) cover guild-wide policy and configuration.
 - [Bot-maintainer commands](maintainers.md) cover host-wide and global bot operations.

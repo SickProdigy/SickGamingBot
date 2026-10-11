@@ -46,6 +46,7 @@ is currently loaded, enabled, and available in a particular server.
 | I am a… | Start here | What you will find |
 | --- | --- | --- |
 | Member | [Member guide](docs/members/index.md) | Everyday commands, self-service features, and account connections |
+| SickGaming VIP member | [VIP guide](docs/vip/index.md) | Current VIP benefits, related commands, and development status |
 | Moderator or administrator | [Moderator and administrator guide](docs/staff/index.md) | Moderation workflows and server configuration |
 | Discord server owner | [Server-owner guide](docs/server-owners/index.md) | Initial setup, integrations, and guild policy |
 | SickGamingBot maintainer | [Bot-maintainer commands](docs/commands/maintainers.md) | Global configuration, code, and host-wide operations |
@@ -69,6 +70,7 @@ restarting the bot, and other host operations are maintainer-only. Read
 ## Help and reference
 
 - [Using SickGamingBot help](docs/using-help.md)
+- [SickGaming VIP guide](docs/vip/index.md)
 - [Audience command catalogs](docs/commands/index.md)
 - [Complete command reference](docs/reference/index.md)
 - [Module catalog](docs/modules/index.md)

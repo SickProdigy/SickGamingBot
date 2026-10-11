@@ -18,6 +18,10 @@ Connecting an account does not bypass the external service's permissions. Member
 
 Browse [Features](../features/index.md), [Permissions](../permissions.md), and [Troubleshooting](../troubleshooting.md) for more detail.
 
+SickGaming VIP members can review the [VIP guide](../vip/index.md) for the benefits
+currently active on the production bot. VIP is a membership benefit, not a staff or
+permission tier.
+
 ## Complete member catalog
 
 The [member command catalog](../commands/members.md) lists all 318 member-accessible

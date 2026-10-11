@@ -25,6 +25,12 @@ SickGaming maintainers are different from SickGaming community staff. Maintainer
 operate the hosted bot and may have Red bot-owner access. Those global capabilities are
 not part of the public moderator or server-owner command sets.
 
+## VIP membership
+
+SickGaming VIP is a membership benefit, not a Red permission level or staff role. It
+does not bypass command checks or grant moderation, administration, server-owner, or
+bot-maintainer access. See the [VIP guide](vip/index.md) for current benefits.
+
 ## How Red levels relate
 
 Discord Administrator, Discord server ownership, and Red bot ownership are different
