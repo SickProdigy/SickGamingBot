@@ -19,4 +19,5 @@ map.
 - Existing feature pages: retained, pending command-by-command review.
 - Official SickGamingBot cog baseline: reviewed 2026-10-10.
 - Sanitized audience indexes and complete 1041-entry command reference: established.
+- Complete module catalog with 39 module/core overview pages: established.
 - Automated stale-documentation check against a live bot export: planned.

@@ -36,7 +36,8 @@ Depending on what a server enables, SickGamingBot can provide:
   Icarus, Rocket League, RuneScape, and more.
 - Wolfram, Navidrome, RSS, and other connected services.
 
-Browse the [feature guide](docs/features/index.md) or go directly to the
+Browse the [features overview](docs/features/index.md), open the full
+[module catalog](docs/modules/index.md), or go directly to the
 [command guides](docs/commands/index.md). Live help is always the authority for what
 is currently loaded, enabled, and available in a particular server.
 
@@ -69,6 +70,7 @@ restarting the bot, and other host operations are maintainer-only. Read
 - [Command and documentation status](docs/command-status.md)
 - [Using SickGamingBot help](docs/using-help.md)
 - [Complete command reference](docs/reference/index.md)
+- [Module catalog](docs/modules/index.md)
 - [Privacy and data](docs/privacy-and-data.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Legacy command snapshots](docs/legacy-command-lists.md)
