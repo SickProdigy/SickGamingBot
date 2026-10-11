@@ -47,17 +47,6 @@ can further restrict availability. [Learn how to use command help](../using-help
 | `-selfroleset clear` | — | Administrator or required Discord permission | Clear the list of available selfroles for this server. |
 | `-selfroleset remove` | — | Administrator or required Discord permission | Remove a role, or a selection of roles, from the list of available selfroles. |
 
-### [Age-Restricted](../modules/nsfw.md) (6)
-
-| Command | Aliases | Declared access | Description |
-| --- | --- | --- | --- |
-| `-nsfwset` | — | Administrator or required Discord permission | Settings for the Nsfw cog. |
-| `-nsfwset autopost` | — | Administrator or required Discord permission | Configure this server's one scheduled NSFW feed. |
-| `-nsfwset autopost off` | `disable`, `remove` | Administrator or required Discord permission | Remove this server's scheduled NSFW feed. |
-| `-nsfwset autopost preview` | `test` | Administrator or required Discord permission | Preview one post without changing or advancing the schedule. |
-| `-nsfwset autopost status` | `show` | Administrator or required Discord permission | Show this server's scheduled NSFW feed. |
-| `-nsfwset notifications` | `notify` | Administrator or required Discord permission | Choose silent or normal delivery for scheduled NSFW posts. |
-
 ### [Aliases](../modules/alias.md) (3)
 
 | Command | Aliases | Declared access | Description |
@@ -339,6 +328,17 @@ can further restrict availability. [Learn how to use command help](../using-help
 | `-timeout` | — | Moderator or required Discord permission | Timeout users. |
 | `-unmute` | — | Moderator or required Discord permission | Unmute users. |
 | `-unmutechannel` | `channelunmute` | Moderator or required Discord permission | Unmute a user in this channel (or in the parent of this thread). |
+
+### [NSFW](../modules/nsfw.md) (6)
+
+| Command | Aliases | Declared access | Description |
+| --- | --- | --- | --- |
+| `-nsfwset` | — | Administrator or required Discord permission | Settings for the Nsfw cog. |
+| `-nsfwset autopost` | — | Administrator or required Discord permission | Configure this server's one scheduled NSFW feed. |
+| `-nsfwset autopost off` | `disable`, `remove` | Administrator or required Discord permission | Remove this server's scheduled NSFW feed. |
+| `-nsfwset autopost preview` | `test` | Administrator or required Discord permission | Preview one post without changing or advancing the schedule. |
+| `-nsfwset autopost status` | `show` | Administrator or required Discord permission | Show this server's scheduled NSFW feed. |
+| `-nsfwset notifications` | `notify` | Administrator or required Discord permission | Choose silent or normal delivery for scheduled NSFW posts. |
 
 ### [Navidrome](../modules/navidrome.md) (22)
 

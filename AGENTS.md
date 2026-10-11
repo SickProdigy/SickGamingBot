@@ -9,7 +9,6 @@
   - `docs/modules/`
   - `docs/reference/`
   - curated audience guides under `docs/commands/`
-  - `docs/command-status.md`
 - Module pages explain purpose, audience, top-level command families, and setup/access
   expectations. Reference pages enumerate every command and subcommand.
 - Keep live `-help`, `-help <command>`, and `-help <command> <subcommand>` documented as

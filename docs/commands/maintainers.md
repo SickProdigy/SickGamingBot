@@ -48,12 +48,6 @@ can further restrict availability. [Learn how to use command help](../using-help
 | `-advancedhelpset timeout` | — | Bot maintainer | Set the interactive timeout from 30 through 900 seconds. |
 | `-docsreport` | `commandinventory` | Bot maintainer | Export sanitized metadata for every registered command. |
 
-### [Age-Restricted](../modules/nsfw.md) (1)
-
-| Command | Aliases | Declared access | Description |
-| --- | --- | --- | --- |
-| `-nsfwset switchredditapi` | — | Bot maintainer | Toggle to use Reddit API directly with the cost of getting ratelimited fast, or use Martine API with faster results and no ratelimits problems. |
-
 ### [Aliases](../modules/alias.md) (3)
 
 | Command | Aliases | Declared access | Description |
@@ -282,6 +276,12 @@ can further restrict availability. [Learn how to use command help](../using-help
 | `-modset trackallnames` | — | Bot maintainer | Toggle whether all name changes should be tracked. |
 | `-movedeletedelay` | — | Bot maintainer | Move deletedelay settings to core |
 | `-moveignoredchannels` | — | Bot maintainer | Move ignored channels and servers to core |
+
+### [NSFW](../modules/nsfw.md) (1)
+
+| Command | Aliases | Declared access | Description |
+| --- | --- | --- | --- |
+| `-nsfwset switchredditapi` | — | Bot maintainer | Toggle to use Reddit API directly with the cost of getting ratelimited fast, or use Martine API with faster results and no ratelimits problems. |
 
 ### [Navidrome](../modules/navidrome.md) (6)
 

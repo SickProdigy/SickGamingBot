@@ -59,9 +59,9 @@ to look up a specific command or subcommand.
 - [General](../modules/general.md) — choices, dice, server information, stopwatch, and other utilities.
 - [Wolfram](../modules/wolfram.md) — Wolfram queries, images, and step-by-step math results.
 
-## Age-restricted features
+## NSFW
 
-- [Age-Restricted](../modules/nsfw.md) — optional adult commands for appropriately restricted servers and channels.
+- [NSFW](../modules/nsfw.md) — optional adult commands for appropriately restricted servers and channels.
 
 Server owners are responsible for channel restrictions, applicable rules, and whether
 this module is enabled.
@@ -91,5 +91,4 @@ These task-oriented guides provide more explanation than the command tables:
 - [Command guides by audience](../commands/index.md)
 - [Complete command reference](../reference/index.md)
 - [Permissions and access levels](../permissions.md)
-- [Command and documentation status](../command-status.md)
 - [Full module catalog](../modules/index.md)

@@ -68,7 +68,6 @@ restarting the bot, and other host operations are maintainer-only. Read
 
 ## Help and reference
 
-- [Command and documentation status](docs/command-status.md)
 - [Using SickGamingBot help](docs/using-help.md)
 - [Audience command catalogs](docs/commands/index.md)
 - [Complete command reference](docs/reference/index.md)

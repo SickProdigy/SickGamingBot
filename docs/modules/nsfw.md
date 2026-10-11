@@ -1,10 +1,10 @@
-# Age-Restricted
+# NSFW
 
 > Optional adult image commands intended only for properly restricted servers and channels.
 
 ## At a glance
 
-- **Category:** Age-restricted features
+- **Category:** NSFW
 - **Intended audience:** Eligible members in restricted channels; administrators control availability.
 - **Loaded package:** `nsfw`
 - **Documented commands:** 49 commands and subcommands
@@ -72,6 +72,6 @@ what you can use.
 
 ## Learn more
 
-- [Complete Age-Restricted command reference](../reference/nsfw.md)
+- [Complete NSFW command reference](../reference/nsfw.md)
 - [Using SickGamingBot help](../using-help.md)
 - [Permissions and access levels](../permissions.md)

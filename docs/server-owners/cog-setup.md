@@ -81,7 +81,7 @@ enabling it does not flood a public channel.
 | [Icarus](../modules/icarus.md) | Channel, categories, interval, presentation, and mention role | `-help icarusset` | Preview and status subcommands |
 | [Garry's Mod](../modules/gmod.md) | Game-server address, status channel, Steam announcements, and schedule | `-help gmodset` | Review status and test each destination |
 | [Rocket League](../modules/rocketleague.md) | Tournaments, clip sources/channel/interval, and RLCS schedule channel | `-help rocketleagueset`, `-help rlcsset` | Status/list commands and a controlled `postnow` |
-| [Age-Restricted](../modules/nsfw.md) | Whether it is allowed and which age-restricted channel may receive a feed | `-help nsfwset` | Confirm channel restrictions, then preview |
+| [NSFW](../modules/nsfw.md) | Whether it is allowed and which age-restricted channel may receive a feed | `-help nsfwset` | Confirm channel restrictions, then preview |
 
 Age-restricted content must never be configured in a general-access channel.
 

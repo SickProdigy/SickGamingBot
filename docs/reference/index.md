@@ -77,9 +77,9 @@ authoritative for visibility, syntax, disabled state, permissions, and server ru
 - [General](general.md) — 10 commands and subcommands
 - [Wolfram](wolfram.md) — 4 commands and subcommands
 
-## Age-restricted features
+## NSFW
 
-- [Age-Restricted](nsfw.md) — 49 commands and subcommands
+- [NSFW](nsfw.md) — 49 commands and subcommands
 
 ## Bot administration
 

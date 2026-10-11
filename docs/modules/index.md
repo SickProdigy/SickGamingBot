@@ -62,9 +62,9 @@ access expectations, and where to find every subcommand.
 - [General](general.md) — Everyday utilities such as choices, dice, server information, stopwatch, and urban dictionary.
 - [Wolfram](wolfram.md) — Wolfram queries, image results, and step-by-step math solutions.
 
-## Age-restricted features
+## NSFW
 
-- [Age-Restricted](nsfw.md) — Optional adult image commands intended only for properly restricted servers and channels.
+- [NSFW](nsfw.md) — Optional adult image commands intended only for properly restricted servers and channels.
 
 ## Bot administration
 

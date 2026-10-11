@@ -65,7 +65,6 @@ When an officially loaded command or cog changes, review all affected areas:
 - `docs/reference/`
 - `docs/commands/`
 - member, staff, and server-owner guides
-- `docs/command-status.md`
 
 Aliases, descriptions, complete subcommand paths, access classification, and catalog
 counts should remain consistent. Maintainers can regenerate these catalogs from a sanitized

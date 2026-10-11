@@ -38,7 +38,7 @@ MODULES = {
     "MovieReleases": ("movies", "Movie Releases", "Music, media, and feeds"),
     "Mutes": ("mutes", "Mutes", "Moderation and safety"),
     "Navidrome": ("navidrome", "Navidrome", "Music, media, and feeds"),
-    "Nsfw": ("nsfw", "Age-Restricted", "Age-restricted features"),
+    "Nsfw": ("nsfw", "NSFW", "NSFW"),
     "Permissions": ("permissions", "Permissions", "Moderation and safety"),
     "Pokemon": ("pokemon", "Pokémon", "Games and gaming communities"),
     "Reports": ("reports", "Reports", "Moderation and safety"),
@@ -61,7 +61,7 @@ SECTION_ORDER = (
     "Music, media, and feeds",
     "Games and gaming communities",
     "Economy, information, and utilities",
-    "Age-restricted features",
+    "NSFW",
     "Bot administration",
 )
 AUDIENCES = {

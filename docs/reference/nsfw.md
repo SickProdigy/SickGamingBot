@@ -1,4 +1,4 @@
-# Age-Restricted commands
+# NSFW commands
 
 Loaded package: `Nsfw`
 
