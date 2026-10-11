@@ -16,5 +16,5 @@
   authoritative because runtime permissions and disabled state vary by server and user.
 - Do not publish private server addresses, SSH details, filesystem paths, credentials,
   tokens, or configuration values in this public repository.
-- Preserve the root legacy command-list files as historical snapshots until their
-  remaining useful content has been deliberately migrated.
+- Preserve the legacy command-list files under `archive/legacy-command-lists/` as
+  historical snapshots while the owner evaluates the current documentation direction.
