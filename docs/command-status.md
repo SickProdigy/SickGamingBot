@@ -16,6 +16,7 @@ map.
 ## Review state
 
 - Exhaustive member/staff/server-owner/bot-maintainer catalogs and boundaries: established.
+- Server-owner cog selection and setup guidance: established.
 - Existing feature pages: retained, pending command-by-command review.
 - Official SickGamingBot cog baseline: reviewed 2026-10-10.
 - Sanitized audience indexes and complete 1041-entry command reference: established.

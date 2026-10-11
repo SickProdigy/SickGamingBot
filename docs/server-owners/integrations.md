@@ -2,6 +2,8 @@
 
 Integrations connect SickGamingBot to an external site or service. Availability varies by deployment and server.
 
+Use the [server-owner cog setup guide](cog-setup.md) to identify modules that need server configuration and their setup command families.
+
 Before enabling one, confirm what it can read or change, whether credentials are guild-wide or personal, who can operate it, how access is revoked, and what happens to stored data.
 
 Use separate, scoped, revocable credentials. Never reuse an administrator password or paste a token into a public channel.

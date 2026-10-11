@@ -11,10 +11,11 @@ You must be allowed to manage the Discord server where you add the bot.
 ## Start here
 
 1. Follow the [initial setup checklist](initial-setup.md).
-2. Review the [permission model](../permissions.md).
-3. Configure only the [integrations](integrations.md) your community needs.
-4. Delegate feature management through narrow Discord or feature-specific roles.
-5. Publish member and staff guidance appropriate to your server.
+2. Use the [cog setup guide](cog-setup.md) to choose and configure modules.
+3. Review the [permission model](../permissions.md).
+4. Configure only the [integrations](integrations.md) your community needs.
+5. Delegate feature management through narrow Discord or feature-specific roles.
+6. Publish member and staff guidance appropriate to your server.
 
 ## Your responsibilities
 

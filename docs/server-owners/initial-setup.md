@@ -8,6 +8,7 @@
 - [ ] Place the bot role only as high as required for roles it must manage.
 - [ ] Confirm channel permissions for messages, embeds, reactions, threads, and intended moderation features.
 - [ ] Assign moderator, administrator, and feature-manager access deliberately.
+- [ ] Choose modules with the [server-owner cog setup guide](cog-setup.md).
 - [ ] Configure welcome, roles, moderation logging, and optional announcements one feature at a time.
 - [ ] Test member and staff behavior with representative non-owner accounts.
 - [ ] Review [privacy and data](../privacy-and-data.md) before external connections.
