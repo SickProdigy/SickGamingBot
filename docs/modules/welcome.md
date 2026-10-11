@@ -33,4 +33,3 @@ what you can use.
 - [Complete Welcome command reference](../reference/welcome.md)
 - [Using SickGamingBot help](../using-help.md)
 - [Permissions and access levels](../permissions.md)
-- [Detailed Welcome guide](../../Welcome-Message.md)

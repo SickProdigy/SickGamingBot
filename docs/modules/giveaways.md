@@ -33,4 +33,3 @@ what you can use.
 - [Complete Giveaways command reference](../reference/giveaways.md)
 - [Using SickGamingBot help](../using-help.md)
 - [Permissions and access levels](../permissions.md)
-- [Detailed Giveaways guide](../../Giveaways.md)

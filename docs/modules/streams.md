@@ -37,4 +37,3 @@ what you can use.
 - [Complete Streams command reference](../reference/streams.md)
 - [Using SickGamingBot help](../using-help.md)
 - [Permissions and access levels](../permissions.md)
-- [Detailed Streams guide](../../Streams.md)

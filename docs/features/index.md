@@ -82,15 +82,6 @@ this module is enabled.
 The reference tables distinguish member, moderator, administrator, server-owner, and
 bot-maintainer access. Discord server ownership does not grant bot-host access.
 
-## Detailed feature guides
-
-These task-oriented guides provide more explanation than the command tables:
-
-- [Giveaways](../../Giveaways.md) — staff-managed server giveaways.
-- [Reaction and self-service roles](../../Reaction-Roles.md) — member role selection and staff setup.
-- [Welcome messages](../../Welcome-Message.md) — administrator setup for greetings and goodbyes.
-- [Stream alerts](../../Streams.md) — streamer status and configurable channel alerts.
-
 ## More documentation
 
 - [Command guides by audience](../commands/index.md)

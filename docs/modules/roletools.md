@@ -34,4 +34,3 @@ what you can use.
 - [Complete Role Tools command reference](../reference/roletools.md)
 - [Using SickGamingBot help](../using-help.md)
 - [Permissions and access levels](../permissions.md)
-- [Detailed Role Tools guide](../../Reaction-Roles.md)
