@@ -28,4 +28,12 @@ Use the least privilege that supports the task. Do not grant Discord Administrat
 
 See [Permissions](../permissions.md), [Privacy and data](../privacy-and-data.md), and [Troubleshooting](../troubleshooting.md).
 
-Use the [Staff command guide](../commands/staff.md) as a starting index for moderation and configuration commands.
+## Complete staff catalog
+
+The [staff command catalog](../commands/staff.md) lists all 412 command paths whose
+declared checks require moderation, administration, or a specific Discord permission.
+Staff also retain the [300 member command paths](../commands/members.md).
+
+Commands reserved specifically for a Discord server owner are listed separately in
+the [server-owner catalog](../commands/server-owners.md). Host-wide operations are
+reserved for [SickGamingBot maintainers](../commands/maintainers.md).

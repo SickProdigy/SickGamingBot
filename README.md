@@ -48,6 +48,7 @@ is currently loaded, enabled, and available in a particular server.
 | Member | [Member guide](docs/members/index.md) | Everyday commands, self-service features, and account connections |
 | Moderator or administrator | [Moderator and administrator guide](docs/staff/index.md) | Moderation workflows and server configuration |
 | Discord server owner | [Server-owner guide](docs/server-owners/index.md) | Initial setup, integrations, and guild policy |
+| SickGamingBot maintainer | [Bot-maintainer commands](docs/commands/maintainers.md) | Global configuration, code, and host-wide operations |
 
 ## How access levels work
 
@@ -69,6 +70,7 @@ restarting the bot, and other host operations are maintainer-only. Read
 
 - [Command and documentation status](docs/command-status.md)
 - [Using SickGamingBot help](docs/using-help.md)
+- [Audience command catalogs](docs/commands/index.md)
 - [Complete command reference](docs/reference/index.md)
 - [Module catalog](docs/modules/index.md)
 - [Privacy and data](docs/privacy-and-data.md)

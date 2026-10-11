@@ -18,4 +18,12 @@ Connecting an account does not bypass the external service's permissions. Member
 
 Browse [Features](../features/index.md), [Permissions](../permissions.md), and [Troubleshooting](../troubleshooting.md) for more detail.
 
-For a practical index of command families, see [Member commands](../commands/members.md).
+## Complete member catalog
+
+The [member command catalog](../commands/members.md) lists all 300 member-accessible
+command paths, grouped by module. Each row includes aliases, declared access, and a
+short description. For a broader explanation of what each module does, use the
+[module catalog](../modules/index.md).
+
+When a command has subcommands, ask for the complete path—for example,
+`-help <command> <subcommand>`. See [Using SickGamingBot help](../using-help.md).

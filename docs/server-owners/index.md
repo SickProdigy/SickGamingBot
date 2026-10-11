@@ -26,4 +26,13 @@ You must be allowed to manage the Discord server where you add the bot.
 
 The bot host controls installed code, global credentials, restarts, infrastructure, and global policy. Server ownership does not provide those controls.
 
-See [Server-owner commands](../commands/server-owners.md) for guild-wide command families used during setup and policy review.
+## Complete owner catalog
+
+The [server-owner command catalog](../commands/server-owners.md) lists all 93 command
+paths that declare server ownership or an equivalent Discord permission as their
+primary boundary. Owners also retain the [staff commands](../commands/staff.md) and
+[member commands](../commands/members.md).
+
+The separate [bot-maintainer catalog](../commands/maintainers.md) makes the boundary
+explicit: owning a Discord server does not grant access to the bot process, global
+configuration, installed code, or cross-server operations.
