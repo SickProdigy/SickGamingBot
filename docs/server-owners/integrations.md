@@ -14,10 +14,10 @@ Use separate, scoped, revocable credentials. Never reuse an administrator passwo
 - **Personal connections** represent one member and should use a private, ownership-verifying flow with an unlink option.
 - **Managed service accounts** for Plex, Navidrome, Jellyfin, or similar services require an explicit provisioning, suspension, retention, and removal policy.
 
-## Existing feature guides
+## Feature guides
 
 - [Stream alerts](../../Streams.md)
 - [Welcome messages](../../Welcome-Message.md)
 - [Reaction and self-service roles](../../Reaction-Roles.md)
 
-These older pages are being reviewed. Confirm current syntax with -help <command>.
+These guides summarize setup and link to the current module references. Live `-help <command>` remains authoritative.

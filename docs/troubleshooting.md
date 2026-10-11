@@ -1,21 +1,54 @@
 # Troubleshooting
 
-## A command is missing
+Start with `-help`, then use `-help <command>` or
+`-help <command> <subcommand>`. Live help reflects your account, channel, enabled
+modules, and current permission rules.
 
-The feature may be unloaded, disabled, restricted in this channel, or unavailable to your account. Check the prefix, try -help <command>, and ask staff whether it is enabled.
+## A command is missing or denied
+
+Check the `-` prefix and exact command path. The cog or command may be disabled,
+blocked in the channel, restricted by Discord permissions or role hierarchy, or hidden
+from your account. Try help in the intended channel and ask server staff to compare
+their result. Owners can review disabled commands and the server Permissions ACL.
 
 ## The bot does not respond
 
-Confirm it is online and can view the channel, read message history when needed, and send messages. Avoid repeatedly submitting actions that may create posts, roles, or external resources.
+Confirm that the bot is online and can view the channel, read message history when
+needed, send messages, and embed links. Try `-help` once in the server's bot channel
+and once in direct messages. Do not repeatedly submit commands that create posts,
+roles, accounts, or external resources.
 
-## A role command fails
+## A role or moderation action fails
 
-Discord role hierarchy may prevent the bot from managing the target. Its highest role must be above roles it manages, but should not be higher than necessary.
+The bot's highest role must be above the target role and member. Discord ownership,
+protected roles, channel overwrites, and missing Manage Roles/Manage Messages
+permissions can still block an otherwise authorized command. Keep the bot role only as
+high as necessary.
 
-## An integration fails
+## Music, feeds, or scheduled posts fail
 
-Do not paste its token into chat or an issue. An administrator should check status, endpoint, scopes, and revocation through the private setup flow.
+Check the configured destination, the bot's send/embed/attach permissions, whether the
+feature is enabled, and its status/settings command. Use preview or test before
+re-enabling a schedule. A provider outage or missing global credential requires a
+SickGamingBot maintainer; server owners should not attempt host commands.
 
-## Reporting a problem
+## An external integration fails
 
-Include the command, approximate time, expected result, error text with secrets removed, and whether one or multiple servers are affected. Never include tokens, credentials, private-channel content, or personal data.
+Check the selected connection, endpoint, account scopes, and revocation state through
+the documented private setup flow. Never paste tokens into chat or an issue. Disconnect
+and reconnect only when the feature documents that workflow; repeated retries can
+create duplicate accounts or posts.
+
+## Gather a useful report
+
+Include:
+
+- The full command path, without secrets.
+- Approximate time and timezone.
+- Expected result and sanitized error text.
+- Whether it affects one user, one channel, one server, or several servers.
+- Which status/test command was tried.
+- Screenshots only after removing private messages, tokens, and personal data.
+
+See [Using help](using-help.md), [Permissions](permissions.md), and
+[Privacy and data](privacy-and-data.md).

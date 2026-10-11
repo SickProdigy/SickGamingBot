@@ -1,6 +1,6 @@
 # Command and documentation status
 
-This documentation is migrating from hand-maintained command dumps to audience- and feature-based guides.
+This documentation uses audience guides, module overviews, setup workflows, and source-reviewed command references.
 
 ## Source of truth
 
@@ -17,9 +17,10 @@ map.
 
 - Exhaustive member/staff/server-owner/bot-maintainer catalogs and boundaries: established.
 - Server-owner cog selection and setup guidance: established.
-- Existing feature pages: retained, pending command-by-command review.
+- Feature pages and legacy setup entry points: reviewed and linked to current references.
 - Official SickGamingBot cog baseline: reviewed 2026-10-10.
 - Sanitized audience indexes and complete 1041-entry command reference: established.
 - All 1041 command paths assigned once to a primary audience tier: established.
 - Complete module catalog with 39 module/core overview pages: established.
-- Automated stale-documentation check against a live bot export: planned.
+- Manual baseline, link, audience-count, prefix, and privacy validation: established.
+- Automated comparison against future live-bot exports: a maintenance enhancement, not required for current coverage.
